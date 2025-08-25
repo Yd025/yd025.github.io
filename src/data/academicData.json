@@ -1,0 +1,65 @@
+{
+  "main": [
+    {
+      "title": "University of Washington, Seattle",
+      "organization": "B.S. in Computer Engineering and B.S. in Mathematics | GPA 3.80/4.00",
+      "date": "2024 - Present",
+      "details": [
+        "Relevant coursework: Honors Accelerated Calculus, Honors Mechanics, Honors Electromagnetism, Intermediate Data Programming, Beginner Scientific Computing",
+        "Activities and societies: Husky Satellite Lab, The Boring Club, Synaptech, Husky Tennis Club"
+      ]
+    },
+    {
+      "title": "École Polytechnique Fédérale de Lausanne",
+      "organization": "Summer Study Abroad in Lausanne, Switzerland",
+      "date": "Aug 2025",
+      "details": []
+    },
+    {
+      "title": "Tohoku University",
+      "organization": "Summer Study Abroad in Sendai, Japan",
+      "date": "Jul 2025",
+      "details": [
+        "Participated in the Tohoku University STEM Summer Program 2025 (TSSP), spending 4 weeks in Japan exploring various disciplines from Robotics for Space Exploration to Nonverbal Information to Enrich Future Telecommunications.",
+        "Awarded the Japan Student Services Organization Scholarship (JASSO) from demonstrating excellent academic and personal records at home university."
+      ]
+    },
+    {
+      "title": "University of Washington Rome Center",
+      "organization": "Early-Fall Study Abroad in Rome, Italy",
+      "date": "Sep 2024",
+      "details": [
+        "Participated in the Freshmen Study Abroad Rome: Travel Writing in the Eternal City",
+        "Explored historical landmarks and cultural sites across Rome to inform reflective and analytical travel essays",
+        "Sharpened storytelling and observation skills through immersive writing workshops, peer critiques, and guided excursions"
+      ]
+    }
+  ],
+  "expandable": [
+    {
+      "title": "Hwa Chong Institution",
+      "organization": "Singapore GCE A-Levels and Hwa Chong Diploma",
+      "date": "2022 - 2023",
+      "details": [
+        "Subjects offered: H3 Physics, H2 Physics, H2 Mathematics, H2 Chemistry, H2 Economics, H1 General Paper, H1 Project Work",
+        "Secretary-Treasurer of the Hwa Chong Astronomy Club (2022-2023)",
+        "Hwa Chong Tennis Team (2022-2023)",
+        "Represented Hwa Chong for the Singapore Physics Olympiad and obtained Silver",
+        "Conducted research under the Centre for Science Research & Talent Development(CenTaD) where we studied the relativistic effects of cosmic muons using a self-assembled muon detector",
+        "Attended a NUS Robotics and Coding Workshop fortnightly",
+        "Served as the ICT Rep of the class"
+      ]
+    },
+    {
+      "title": "Nanyang Girls' High School",
+      "organization": "Integrated Programme Secondary Education",
+      "date": "2018 - 2021",
+      "details": [
+        "Studied the most vigorous coursework with 9 academic subjects and 2 advanced subjects",
+        "Subjects offered: Advanced Physics, Advanced Mathematics, Physics, Integrated Mathematics 1 and 2, Chemistry, Biology, Geography, Integrated Humanities, Higher Chinese and Language Arts",
+        "Nanyang Tennis Team (2018-2021)",
+        "Offered French at MOELC (2018-2019)"
+      ]
+    }
+  ]
+}

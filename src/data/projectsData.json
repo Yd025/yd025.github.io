@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Retail Data Analysis Report",
+    "description": "Special mentions for Best Data Analysis and Best Data Visualization to Datathon 2025 organized by DubsTech, tackling the “Retail: Accelerating the Sales of the Modecraft Ecommerce Store” challenge, analyzing over 500,000 orders to generate monthly trend summaries, product-level performance metrics, and customer insights.",
+    "technologies": ["Python", "Pandas", "Matplotlib", "Microsoft Excel"],
+    "links": [
+      {
+        "text": "Report",
+        "url": "https://github.com/Oscariano/Datathon2025/blob/main/Final_Report_Datathon2025.pdf"
+      },
+      {
+        "text": "Source Code",
+        "url": "https://github.com/Oscariano/Datathon2025"
+      }
+    ]
+  },
+  {
+    "title": "Ordito AI File Organizer",
+    "description": "Built a full-stack offline desktop application for the 8VC x DubHacks Next Hack Night that scans files on the local machine, leverages an embedded LLaMA AI model to analyze content and automatically suggests destination folders based on both file contents and the user's existing directory structure with over 90% accuracy, cutting manual sorting time down to seconds. Supports drag-and-drop file management plus manual override for seamless, entirely offline operation.",
+    "technologies": ["Python", "LLaMA AI", "Tkinter"],
+    "links": [
+      {
+        "text": "Source Code",
+        "url": "https://github.com/Yd025/ordito-ai"
+      }
+    ]
+  },
+  {
+    "title": "DreamScape",
+    "description": "FigBuild 2025 challenged teams to pick a superpower and create a tool to manage it. We built a Figma prototype sleep-control management with features for brainpower tracking and an intuitive rotating-knob interface for adjusting dream parameters. Designed for seamless UI/UX, it lets users schedule, monitor, and fine-tune their dream cycles with real-time visualization.",
+    "technologies": ["Figma", "UI", "UX"],
+    "links": [
+      {
+        "text": "Slide Deck",
+        "url": "https://www.figma.com/slides/GMzvOl3CQ6AfINOiuE4MI0/FigBuild-2025-Team-BurntAlho-DreamScape?node-id=1-23&t=9ubdHLtdQXNN7oK5-1"
+      }
+    ]
+  },
+  {
+    "title": "Mancala Game",
+    "description": "Built a Java implementation of the classic Mancala board game created for CSE 123. Includes three variants of Mancala, including Reverse Mancala, Custom Mancala, and Infinite Mancala, showcasing modular OOP design, inheritance, and polymorphism.",
+    "technologies": ["Java", "Object-Oriented Programming"],
+    "links": [
+      {
+        "text": "Source Code",
+        "url": "https://github.com/Yd025/mancala-variations"
+      }
+    ]
+  },
+  {
+    "title": "TAG Lost & Found",
+    "description": "Created a pitch deck for a community-driven lost and found platform for the Lavin Startup Studio 2024 entrepreneurship competition designed to maximize lost item recovery on campus. Users submit reports of lost or found items with geo-tagged locations, browse live listings, and coordinate pickups at verified collection points.",
+    "technologies": ["No code"],
+    "links": [
+      {
+        "text": "Slide Deck",
+        "url": "https://docs.google.com/presentation/d/18mezIgQi7CNvHzDrxHfUQ_UWq3l_KQnvJdJ_cG6mqU4/edit?usp=sharing"
+      }
+    ]
+  },
+  {
+    "title": "Mugger Life",
+    "description": "Built a Telegram bot that anonymously collects academic questions from students via one-to-one messages and forwards them into a public channel so peers can help answer. The channel grew to over 600 members and processed more than 1,000 queries.",
+    "technologies": ["Heroku", "BotFather"],
+    "links": [
+      {
+        "text": "Live Bot",
+        "url": "https://t.me/Omelebot"
+      },
+      {
+        "text": "Telegram Channel",
+        "url": "https://t.me/muggerlife"
+      }
+    ]
+  }
+]

@@ -1,0 +1,168 @@
+{
+  "societies": {
+    "main": [
+      {
+        "title": "Husky Satellite Lab",
+        "roles": [
+          {
+            "organization": "Lead of Magnetorquers in Attitude Determination and Control Systems Subsystem (ADCS)",
+            "date": "Jan 2025 - Present",
+            "points": [
+              "Developing control systems by applying quaternion mathematics and linear algebra to fuse data from IMUs and magnetometers for precise magnetorquer coil actuation.",
+              "Designing PCB firmware for 3U-satellite magnetorquers, including H-bridge current control and circuit design.",
+              "Organize and lead weekly meetings with Magnetorquers Subsystem to discuss expectations and delegate work."
+            ]
+          },
+          {
+            "organization": "Propulsion Engineer",
+            "date": "Oct 2024 - Jan 2025",
+            "points": [
+              "Created CAD designs of potentially in-house built cold gas propulsion systems for review and selection.",
+              "Researched extensively on passive heating systems to ensure HuskySat-2 maintains optimal temperature conditions.",
+              "Ran calculations using MATLAB to justify feasibility and effectiveness of passive heating louvers."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "The Boring Club at UW",
+        "roles": [
+          {
+            "organization": "Web Developer & Lead",
+            "date": "Sep 2024 - Present",
+            "points": [
+              "Built the Boring Club's website using HTML and JavaScript, resulting in a functional online presence entirely self-taught through online resources.",
+              "Secured the website and Raspberry Pi server using Cloudflare, improving the club's cybersecurity and uptime.",
+              "Used Verilog to develop an FPGA-based Traffic Light Simulator, gaining hands-on experience with digital design and hardware fundamentals."
+            ]
+          }
+        ]
+      }
+    ],
+    "expandable": [
+      {
+        "title": "Synaptech",
+        "roles": [
+          {
+            "organization": "Member",
+            "date": "Sep 2024 - Mar 2025",
+            "points": [
+              "Competed in the 2025 NeuroHackathon hosted by CoNECT, Synaptech, and the Allen Institute and ran a scientific study detecting changes in EEG signals from an OpenBCI headset based on scares.",
+              "Participated in weekly meetings to explore neurotechnology through hands-on projects and collaborative learning."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hwa Chong Astronomy club",
+        "roles": [
+          {
+            "organization": "Secretary-Treasurer",
+            "date": "Mar 2022 - Apr 2023",
+            "points": [
+              "Managed club finances and oversaw all monetary transactions, including purchasing equipment (telescopes, tripods), merchandise (jackets, shirts), and handling event logistics (registration fees, craft materials, food).",
+              "Coordinated and led multiple full-day outreach events with up to 100 attendees, teaching K-12 students from diverse backgrounds about astronomy and promoting hands-on STEM learning."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "community": [
+    {
+      "title": "Case Writer",
+      "organization": "People's Action Party",
+      "date": "Jun 2023 - Present",
+      "sections": [
+        {
+          "heading": "Description",
+          "content": "I volunteer weekly at the Meet-The-People Sessions to attend to residents' needs and write letters to the various governmental or private agencies. Also involved in training new volunteers and familiarising them with the processes."
+        }
+      ]
+    },
+    {
+      "title": "Volunteer Befriender",
+      "organization": "Youth Corps Singapore",
+      "date": "Mar 2024 - Aug 2024",
+      "sections": [
+        {
+          "heading": "Description",
+          "content": "Volunteered for various events and projects as part of the Youth Corps Community Internship programme. Events include Art-Kid-Tech with YCDT-Shine, Intergen Evening Escapades with NTUC Health Nursing Home and Hearts Connect with Society of the Aged Sick etc."
+        }
+      ]
+    },
+    {
+      "title": "Event Organiser",
+      "organization": "People's Association Youth Movement (PAYM)",
+      "date": "Jun 2022 - Aug 2024",
+      "sections": [
+        {
+          "heading": "Description",
+          "content": "Volunteered frequently for large-scaled events with Keat Hong Youth Network such as the Halloween Fiesta, Migrant Workers' carnival, Children's Art events and YouthWAVE PassionArts 2023 etc."
+        },
+        {
+          "heading": "Role",
+          "points": [
+            "Played important roles in ensuring the smooth running of events",
+            "Managed and assigned roles for volunteers, ensuring that manpower and resources were well accounted for",
+            "Planned and organised a Haunted House, leading a team of over 20 volunteers, and received over 4000 resident attendees"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Leader and Founding Member of Project Binary",
+      "organization": "Chinese Development Assistance Council (CDAC)",
+      "date": "Mar 2022 - Dec 2022",
+      "sections": [
+        {
+          "heading": "Description",
+          "content": "Project Binary is a group of students from Hwa Chong Institution working with CDAC to teach Python to Primary 4 and 5 students from less-privileged backgrounds."
+        },
+        {
+          "heading": "Role",
+          "points": [
+            "Directed all sessions efficiently and taught students in a fun and interactive method on Zoom",
+            "Distributed the workload among the team evenly and prepared all lesson materials from scratch"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Founding Member of Project Tie-ger",
+      "organization": "AMKFSC Community Services Ltd",
+      "date": "Nov 2022 - Jun 2023",
+      "sections": [
+        {
+          "heading": "Description",
+          "content": "Project Tie-ger aims to teach basic guitar lessons and interact with children at Ang Mo Kio Family Service Centre (AMKFSC) during the June School Holidays."
+        },
+        {
+          "heading": "Role",
+          "points": [
+            "Planned and prepared lesson materials and guitar scores before each session",
+            "Organised and tabulated volunteer attendance and hours post-event"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Organising Team Member of Project Grace",
+      "organization": "Special Olympics Singapore",
+      "date": "Nov 2020 - Sep 2021",
+      "sections": [
+        {
+          "heading": "Description",
+          "content": "Project Grace is a team of youths from Hwa Chong Institution and Nanyang Girls' High School collaborating with Special Olympics Singapore to empower Athletes with Intellectual Disabilities."
+        },
+        {
+          "heading": "Role",
+          "points": [
+            "Organised and led online weekly fitness sessions with athletes during the COVID-19 pandemic",
+            "Facilitated an online seminar featuring Mr Sean Bai, Director General of the Valencia CF Academy and SOSG, raising awareness and over S$600 in funds"
+          ]
+        }
+      ]
+    }
+  ]
+}
