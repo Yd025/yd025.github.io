@@ -8,11 +8,10 @@ import { Projects } from './pages/Projects';
 
 function App() {
   return (
-    <BrowserRouter>
+    // Add the basename prop here
+    <BrowserRouter basename="/adelin-portfolio/">
       <Routes>
-        {/* The Layout component wraps all pages to provide the Navbar and Footer */}
         <Route path="/" element={<Layout />}>
-          {/* The 'index' route is the default page (your homepage) */}
           <Route index element={<Home />} />
           <Route path="work" element={<Work />} />
           <Route path="academic" element={<Academic />} />
