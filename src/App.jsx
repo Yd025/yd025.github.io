@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { Home } from './pages/Home';
 import { Work } from './pages/Work';
@@ -8,8 +8,7 @@ import { Projects } from './pages/Projects';
 
 function App() {
   return (
-    // Add the basename prop here
-    <BrowserRouter basename="/adelin-portfolio/">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -19,7 +18,7 @@ function App() {
           <Route path="projects" element={<Projects />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
