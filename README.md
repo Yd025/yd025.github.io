@@ -6,7 +6,7 @@ This repository contains the source code for my personal portfolio website. It's
 
 ## 🚀 Live Demo
 
-**(Link to your deployed website here)**
+**Open the deployed website here**
 `https://yd025.github.io/`
 
 ---
