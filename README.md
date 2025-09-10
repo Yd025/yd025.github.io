@@ -1,12 +1,33 @@
-# React + Vite
+# Adelin's Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for my personal portfolio website. It's built with React and TypeScript to showcase my journey as a Computer Engineering and Mathematics student at the University of Washington. The site details my professional experience, personal projects, academic background, and community involvement.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+**(Link to your deployed website here)**
+`https://yd025.github.io/`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+* **Dynamic Typewriter Effect:** An engaging, multilingual greeting on the home page to welcome visitors.
+* **Component-Based Architecture:** Fully built with reusable React components for different sections like Work, Projects, and Academics.
+* **Data-Driven Content:** All professional and project information is managed through modular JSON files, allowing for easy updates without touching the component logic.
+* **Interactive UI/UX:** Features clean hover effects on cards, reveal-on-scroll animations, and expandable sections for a smooth and modern user experience.
+* **Fully Responsive Design:** A clean, mobile-first design that adapts seamlessly to various screen sizes from desktops to mobile phones.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React, TypeScript
+* **Styling:** Plain CSS with a modular approach
+* **Data Management:** Local JSON files
+
+## ☎️ Let's Connect!
+
+* UW email: mayidan@uw.edu
+* Personal: xiaoadelin@gmail.com 
