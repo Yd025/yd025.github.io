@@ -3,11 +3,7 @@
     "title": "Spatial and Machine Learning Analysis of Motor Vehicle Theft",
     "description": "Used Pandas, GeoPandas to analyze >50,000 crime records, identifying 5 major theft hotspots and seasonal trends and used CatBoost in a three-stage classification model todistinguish motor vehicle theft from theft-from-vehicle incidents, achieving balanced precision and recall for robust, interpretable predictions",
     "technologies": ["Python", "Pandas", "GeoPandas", "CatBoost", "Plotly", "Seaborn", "Scikit-learn", "SciPy"],
-    "links": [
-      {
-        "text": "Source Code"
-      }
-    ]
+    "links": []
   },
   {
     "title": "Retail: Accelerating the Sales of the Modecraft Ecommerce Store",
