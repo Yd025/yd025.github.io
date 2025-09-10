@@ -4,13 +4,9 @@ import gmailIcon from '../assets/images/gmail-old-svgrepo-com.svg';
 import resumeIcon from '../assets/images/resume-business-cv-work-job-curriculum-2-svgrepo-com.svg';
 import linkedinIcon from '../assets/images/linkedin-svgrepo-com.svg';
 import githubIcon from '../assets/images/github-142-svgrepo-com.svg';
-import resumePdf from '../assets/resume/Ma Yidan (Adelin) Resume 2025_08.pdf';
+import resumePdf from '../assets/resume/Ma_Yidan_Adelin_Resume_2025_09.pdf';
 
-/**
- * Renders the fixed sidebar with social media and contact links.
- * Using target="_blank" and rel="noopener noreferrer" is important for security
- * when linking to external sites.
- */
+
 export function SocialsSidebar() {
   return (
     <div className="fixed-buttons">

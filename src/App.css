@@ -182,74 +182,51 @@ nav a.active {
   font-size: 1.125rem;
 }
 
-/* Gallery Section */
-.gallery-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr); /* We create a 6-column grid for precise centering */
-  gap: 2rem;
-  padding: 2rem 0;
-}
-
-/* Place the first row of 3 images */
-.gallery-container .polaroid:nth-child(1) { grid-column: 1 / 3; }
-.gallery-container .polaroid:nth-child(2) { grid-column: 3 / 5; }
-.gallery-container .polaroid:nth-child(3) { grid-column: 5 / 7; }
-
-/* Place the second row of 2 images, which will now be perfectly centered */
-.gallery-container .polaroid:nth-child(4) { grid-column: 2 / 4; }
-.gallery-container .polaroid:nth-child(5) { grid-column: 4 / 6; }
-
-.polaroid {
-  position: relative;
-  background: #fff;
-  padding: 1rem;
-  padding-bottom: 4rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.2s ease-in-out;
-  width: 100%; /* Let the grid control the size */
-}
-
-/* .polaroid:hover {
-  transform: scale(1.05) rotate(0deg) !important;
-  z-index: 10;
-} */
-
-.polaroid img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.polaroid p {
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  right: 1rem;
+/* Skills Section Styles */
+.skills-section {
+  max-width: 90%;
+  margin: 0 auto;
   text-align: center;
-  font-family: 'Ephesis', cursive;
-  font-size: 1.5rem;
+}
+
+.skill-category {
+  margin-bottom: 2.5rem;
+}
+
+.skill-category h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
   color: #333;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e0e0e0;
 }
 
-.tape {
-  position: absolute;
-  top: -15px;
-  left: 50%;
-  transform: translateX(-50%) rotate(-5deg);
-  width: 100px;
-  height: 30px;
-  background-color: rgba(255, 252, 204, 0.7);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  border-left: 2px dashed rgba(0,0,0,0.1);
-  border-right: 2px dashed rgba(0,0,0,0.1);
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-content: center;
 }
 
-Add some random rotation to each polaroid
-.polaroid:nth-child(1) { transform: rotate(-5deg); }
-.polaroid:nth-child(2) { transform: rotate(3deg); }
-.polaroid:nth-child(3) { transform: rotate(-2deg); }
-.polaroid:nth-child(4) { transform: rotate(5deg); }
-.polaroid:nth-child(5) { transform: rotate(-4deg); }
+.skill-tag {
+  background-color: #f5f5f5;
+  color: #480e4e;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem; /* Creates the rounded rectangle shape */
+  font-size: 0.8rem;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: default;
+}
+
+.skill-tag:hover {
+  background-color: #C4D0B6; /* Uses a color from your theme */
+  color: #1E0B0D;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+}
 
 /* Experience tab styles */
 .experience-tab {

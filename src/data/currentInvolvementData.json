@@ -1,0 +1,36 @@
+{
+  "involvements": [
+    {
+      "title": "Meeting Reservation Specialist",
+      "organization": "Husky Union Building",
+      "date": "Sep 2024 - Present",
+      "points": [
+        "Draft detailed event quotes and communicate with clients about room restrictions, AV needs, and service options.",
+        "Produce and update room layout diagrams, collaborating with event staff to assess feasibility and implement changes.",
+        "Assists in administrative and clerical duties at the information desk, including processing signed and completed event reservation paperwork and deadlines",
+        "Employs exceptional time management and prioritization skills to manage multiple daily, weekly, and monthly tasks alongside ongoing customer service responsibilities",
+        "Experienced in payment processing and point-of-sale cashiering for in-person transactions, including handling transactions exceeding $10,000 USD"
+      ]
+    },
+    {
+      "title": "Husky Satellite Lab",
+      "organization": "Lead of Magnetorquers in Attitude Determination and Control Systems Subsystem (ADCS)",
+      "date": "Jan 2025 - Present",
+      "points": [
+        "Developing control systems by applying quaternion mathematics and linear algebra to fuse data from IMUs and magnetometers for precise magnetorquer coil actuation.",
+        "Designing PCB firmware for 3U-satellite magnetorquers, including H-bridge current control and circuit design.",
+        "Organize and lead weekly meetings with Magnetorquers Subsystem to discuss expectations and delegate work."
+      ]
+    },
+    {
+      "title": "The Boring Club at UW",
+      "organization": "Web Developer & Lead",
+      "date": "Sep 2024 - Present",
+      "points": [
+        "Built the Boring Club's website using HTML and JavaScript, resulting in a functional online presence entirely self-taught through online resources.",
+        "Secured the website and Raspberry Pi server using Cloudflare, improving the club's cybersecurity and uptime.",
+        "Used Verilog to develop an FPGA-based Traffic Light Simulator, gaining hands-on experience with digital design and hardware fundamentals."
+      ]
+    }
+  ]
+}

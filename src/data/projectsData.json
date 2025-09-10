@@ -1,6 +1,16 @@
 [
   {
-    "title": "Retail Data Analysis Report",
+    "title": "Spatial and Machine Learning Analysis of Motor Vehicle Theft",
+    "description": "Used Pandas, GeoPandas to analyze >50,000 crime records, identifying 5 major theft hotspots and seasonal trends and used CatBoost in a three-stage classification model todistinguish motor vehicle theft from theft-from-vehicle incidents, achieving balanced precision and recall for robust, interpretable predictions",
+    "technologies": ["Python", "Pandas", "GeoPandas", "CatBoost", "Plotly", "Seaborn", "Scikit-learn", "SciPy"],
+    "links": [
+      {
+        "text": "Source Code"
+      }
+    ]
+  },
+  {
+    "title": "Retail: Accelerating the Sales of the Modecraft Ecommerce Store",
     "description": "Special mentions for Best Data Analysis and Best Data Visualization to Datathon 2025 organized by DubsTech, tackling the “Retail: Accelerating the Sales of the Modecraft Ecommerce Store” challenge, analyzing over 500,000 orders to generate monthly trend summaries, product-level performance metrics, and customer insights.",
     "technologies": ["Python", "Pandas", "Matplotlib", "Microsoft Excel"],
     "links": [

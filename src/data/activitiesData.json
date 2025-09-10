@@ -14,6 +14,11 @@
             ]
           },
           {
+            "organization": "",
+            "date": "",
+            "points": []
+          },
+          {
             "organization": "Propulsion Engineer",
             "date": "Oct 2024 - Jan 2025",
             "points": [
@@ -37,10 +42,7 @@
             ]
           }
         ]
-      }
-    ],
-    "expandable": [
-      {
+      }, {
         "title": "Synaptech",
         "roles": [
           {
@@ -52,9 +54,24 @@
             ]
           }
         ]
+      }
+    ],
+    "expandable": [
+      {
+        "title": "Husky Tennis Club",
+        "roles": [
+          {
+            "organization": "Member",
+            "date": "Sep 2024 - Present",
+            "points": [
+              "Participate in weekly tennis practices and matches, enhancing my skills and fostering teamwork.",
+              "Engage in social events and tournaments, building a sense of community within the club."
+            ]
+          }
+        ]
       },
       {
-        "title": "Hwa Chong Astronomy club",
+        "title": "Hwa Chong Astronomy Club",
         "roles": [
           {
             "organization": "Secretary-Treasurer",
@@ -62,6 +79,19 @@
             "points": [
               "Managed club finances and oversaw all monetary transactions, including purchasing equipment (telescopes, tripods), merchandise (jackets, shirts), and handling event logistics (registration fees, craft materials, food).",
               "Coordinated and led multiple full-day outreach events with up to 100 attendees, teaching K-12 students from diverse backgrounds about astronomy and promoting hands-on STEM learning."
+            ]
+          }
+        ]
+      }, 
+      {
+        "title": "Hwa Chong Tennis",
+        "roles": [
+          {
+            "organization": "Athlete",
+            "date": "Jan 2022 - Apr 2023",
+            "points": [
+              "Trained rigorously in tennis, balancing academics and athletics to achieve personal bests in both areas.",
+              "Competed the National School Games A Division Girls Tennis, obtaining Gold and Silver in 2022 and 2023 respectively."
             ]
           }
         ]

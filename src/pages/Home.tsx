@@ -1,5 +1,6 @@
 import { useTypewriter } from '../hooks/useTypewriter';
 import { Reveal } from '../components/Reveal';
+import data from '../data/currentInvolvementData.json';
 
 // Step 1: Import your images from the assets folder
 import heroBg from '../assets/images/Untitled_Artwork.jpg';
@@ -10,12 +11,18 @@ const GREETINGS = [
   "你好，\n我是马一丹"
 ];
 
+const skills = {
+  technical: ["Java", "Python", "MATLAB", "SQL", "HTML", "CSS", "JavaScript", "UI/UX", "ReactJS", "React Native", "Git", "Figma", "Excel"],
+  libraries: ["Pandas", "Seaborn", "NumPy", "Matplotlib", "Scikit-learn", "SciPy", "XGBoost", "Plotly", "YOLO", "FastAPI"],
+  laboratory: ["CAD (OnShape)", "3D printing", "Soldering", "Data science", "Data management", "Data visualization", "Version control"],
+  language: ["English (Native)", "Mandarin (Native)", "Korean (Working)", "French (Elementary)", "Japanese (Elementary)"]
+};
+
 export function Home() {
   const typewriterText = useTypewriter(GREETINGS);
 
   return (
     <>
-      {/* Step 2: Apply the hero background image using an inline style */}
       <section className="hero" style={{ backgroundImage: `url(${heroBg})` }}>
         <div className="container">
           <div className="hero-content">
@@ -32,7 +39,7 @@ export function Home() {
                 </div>
               </p>
             </div>
-            {/* Step 3: Apply the second background image here */}
+
             <div 
               className="hero-image" 
               style={{ backgroundImage: `url(${heroImage})` }}
@@ -57,21 +64,60 @@ export function Home() {
       </Reveal>
 
       <Reveal>
+        <br />
+        <section className="container">
+          <div className="page-header">
+            <h1>Current Involvements</h1>
+          </div>
+          {data.involvements.map((item, index) => (
+            <div className="experience-tab" key={`involvement-${index}`}>
+              <h3>{item.title}</h3>
+              <div className="experience-tab-header">
+                <div className="experience-tab-organization">{item.organization}</div>
+                <div className="experience-tab-date">{item.date}</div>
+              </div>
+              <ul>
+                {item.points.map((point, pIndex) => (
+                  <li key={`involvement-point-${pIndex}`}>{point}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+      </Reveal>
+
+      <Reveal>
         <section className="about">
           <div className="container">
             <div className="page-header">
               <h1>Skills</h1>
             </div>
-            <div className="about-content">
-              <p>
-                Technical: Java, Python, MATLAB, SQL, HTML, CSS, JavaScript.
-              </p>
-              <p>
-                Laboratory: Computer Aided Design (OnShape), 3-D printing, soldering, data cleaning and visualization with Python.
-              </p>
-              <p>
-                Language: Native fluency in English and Mandarin; working proficiency in Korean; elementary proficiency in French.
-              </p>
+            {/* Updated Skills Section */}
+            <div className="skills-section">
+              <div className="skill-category">
+                <h4>Technical</h4>
+                <div className="skill-tags">
+                  {skills.technical.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
+                </div>
+              </div>
+              <div className="skill-category">
+                <h4>Libraries & Frameworks</h4>
+                <div className="skill-tags">
+                  {skills.libraries.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
+                </div>
+              </div>
+              <div className="skill-category">
+                <h4>Laboratory & Methodologies</h4>
+                <div className="skill-tags">
+                  {skills.laboratory.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
+                </div>
+              </div>
+              <div className="skill-category">
+                <h4>Languages</h4>
+                <div className="skill-tags">
+                  {skills.language.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
+                </div>
+              </div>
             </div>
           </div>
         </section>
