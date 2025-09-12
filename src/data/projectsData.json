@@ -1,5 +1,28 @@
 [
   {
+    "title": "Travel Logger",
+    "description": "Used React to build a travel logging web app that allows users to add pins to locations they have been + want to go on an interactive map. Logger is complete with notes for each location visited and a filter to view locations by trips. Supports auto-save to JSON file and data persistence with localStorage.",
+    "technologies": ["React", "JavaScript", "HTML", "CSS", "MapLibre GL"],
+    "links": [
+      {"text": "Source Code",
+        "url": "https://github.com/Yd025/TravelLog"
+      }
+    ]
+  },
+  {
+    "title": "Project Microwave",
+    "description": "Visualized delta-to-gamma waves across eight EEG channels using a OpenBCI Ultracortex Biosensing Headset during a memory game with unexpected jump-scares, revealing how brain waves change under focused attention and surprise. Project was created as part of the 3-day-2-night Neurohackathon 2025 by Synaptech at UW.",
+    "technologies": ["Python", "Pandas", "NumPy", "Matplotlib", "OpenBCI"],
+    "links": [
+      {"text": "Source Code",
+        "url": "https://github.com/truongmleon/ProjectMicrowave"
+      }, {
+        "text": "Presentation",
+        "url": "https://docs.google.com/presentation/d/17mPElucITtFA6H9lVMfBPB5JHA2q1Ucmo83RbXPtuYY/edit?usp=sharing"
+      }
+    ]
+  },
+  {
     "title": "Spatial and Machine Learning Analysis of Motor Vehicle Theft",
     "description": "Used Pandas, GeoPandas to analyze >50,000 crime records, identifying 5 major theft hotspots and seasonal trends and used CatBoost in a three-stage classification model todistinguish motor vehicle theft from theft-from-vehicle incidents, achieving balanced precision and recall for robust, interpretable predictions",
     "technologies": ["Python", "Pandas", "GeoPandas", "CatBoost", "Plotly", "Seaborn", "Scikit-learn", "SciPy"],
@@ -37,7 +60,7 @@
     "technologies": ["Figma", "UI", "UX"],
     "links": [
       {
-        "text": "Slide Deck",
+        "text": "Presentation",
         "url": "https://www.figma.com/slides/GMzvOl3CQ6AfINOiuE4MI0/FigBuild-2025-Team-BurntAlho-DreamScape?node-id=1-23&t=9ubdHLtdQXNN7oK5-1"
       }
     ]
@@ -49,7 +72,7 @@
     "links": [
       {
         "text": "Source Code",
-        "url": "https://github.com/Yd025/mancala-variations"
+        "url": "https://github.com/Yd025/CustomMancala"
       }
     ]
   },
@@ -59,7 +82,7 @@
     "technologies": ["No code"],
     "links": [
       {
-        "text": "Slide Deck",
+        "text": "Presentation",
         "url": "https://docs.google.com/presentation/d/18mezIgQi7CNvHzDrxHfUQ_UWq3l_KQnvJdJ_cG6mqU4/edit?usp=sharing"
       }
     ]
