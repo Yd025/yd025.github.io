@@ -1,4 +1,14 @@
 [
+    {
+    "title": "Tennis Score Tracker",
+    "description": "Used React to build a comprehensive tennis score tracking web app that allows users to configure games (sets, tie-break, service, player information) and keep track of match scores in real-time. Features include undo/redo functionality and exporting results with time stamps as a pdf.",
+    "technologies": ["React", "JavaScript", "HTML", "CSS", "jsPDF"],
+    "links": [
+      {"text": "Source Code",
+        "url": "https://github.com/Yd025/TennisScoreTracker"
+      }
+    ]
+  },
   {
     "title": "Travel Logger",
     "description": "Used React to build a travel logging web app that allows users to add pins to locations they have been + want to go on an interactive map. Logger is complete with notes for each location visited and a filter to view locations by trips. Supports auto-save to JSON file and data persistence with localStorage.",
