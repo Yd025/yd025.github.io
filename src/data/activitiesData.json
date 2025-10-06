@@ -5,7 +5,7 @@
         "title": "Husky Satellite Lab",
         "roles": [
           {
-            "organization": "Lead of Magnetorquers in Attitude Determination and Control Systems Subsystem (ADCS)",
+            "organization": "Magnetorquers Lead in Attitude Determination and Control Systems Subsystem (ADCS)",
             "date": "Jan 2025 - Present",
             "points": [
               "Developing control systems by applying quaternion mathematics and linear algebra to fuse data from IMUs and magnetometers for precise magnetorquer coil actuation.",
@@ -33,7 +33,7 @@
         "title": "The Boring Club at UW",
         "roles": [
           {
-            "organization": "Web Developer & Lead",
+            "organization": "Web Developer Lead and Project Lead",
             "date": "Sep 2024 - Present",
             "points": [
               "Built the Boring Club's website using HTML and JavaScript, resulting in a functional online presence entirely self-taught through online resources.",
@@ -43,6 +43,31 @@
           }
         ]
       }, {
+        "title": "Batman's Kitchen",
+        "roles": [
+          {
+            "organization": "Member",
+            "date": "Sep 2025 - Present",
+            "points": [
+              "Batman's Kitchen at the University of Washington is a club that participates in CTFs and CCDC, as well as other competitons to sharpen cyber security skills."
+            ]
+          }
+        ]
+      }, {
+        "title": "Web Impact at UW",
+        "roles": [
+          {
+            "organization": "Member",
+            "date": "Sep 2025 - Present",
+            "points": [
+              "Web Impact is a University of Washington web design and development RSO that facilitates the creation of free-of-charge websites for local communities and organizations within the Seattle area."
+            ]
+          }
+        ]
+      }
+    ],
+    "expandable": [
+      {
         "title": "Synaptech",
         "roles": [
           {
@@ -54,9 +79,7 @@
             ]
           }
         ]
-      }
-    ],
-    "expandable": [
+      },
       {
         "title": "Husky Tennis Club",
         "roles": [
