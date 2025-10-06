@@ -10,6 +10,14 @@
       ]
     },
     {
+      "title": "Analog Electronic Researcher",
+      "organization": "PIONEER Experiment, Experimental Nuclear Physics and Astrophysics (CENPA)",
+      "date": "Sep 2025 - Present",
+      "points": [
+        "Developing an Arduino-based diagnostic tool to automatically map faulty channels in a 16-pin controller, reducing weeks of manual debugging into instant feedback and enabling faster optimization of scintillator readout hardware."
+      ]
+    },
+    {
       "title": "Husky Satellite Lab",
       "organization": "Magnetorquers Lead in Attitude Determination and Control Systems Subsystem (ADCS)",
       "date": "Jan 2025 - Present",
