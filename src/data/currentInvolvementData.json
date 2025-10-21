@@ -18,20 +18,20 @@
       ]
     },
     {
-      "title": "Husky Satellite Lab",
-      "organization": "Magnetorquers Lead in Attitude Determination and Control Systems Subsystem (ADCS)",
-      "date": "Jan 2025 - Present",
-      "points": [
-        "Developing control systems by applying quaternion mathematics and linear algebra to fuse data from IMUs and magnetometers for precise magnetorquer coil actuation."
-      ]
-    },
-    {
-      "title": "The Boring Club at UW",
-      "organization": "Web Developer Lead & Project Lead",
+      "title": "Machine Learning Lead & Web Developer",
+      "organization": "The Boring Club at UW",
       "date": "Sep 2024 - Present",
       "points": [
         "Built the Boring Club's website using HTML and JavaScript, resulting in a functional online presence entirely self-taught through online resources.",
         "Leading a new machine learning project that takes in live visual data from a camera and classifies objects in real-time."
+      ]
+    },
+    {
+      "title": "Magnetorquers Lead",
+      "organization": "Husky Satellite Lab, Attitude Determination and Control Systems Subsystem (ADCS)",
+      "date": "Jan 2025 - Present",
+      "points": [
+        "Developing control systems by applying quaternion mathematics and linear algebra to fuse data from IMUs and magnetometers for precise magnetorquer coil actuation."
       ]
     }
   ]

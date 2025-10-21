@@ -2,6 +2,20 @@
   "societies": {
     "main": [
       {
+        "title": "The Boring Club at UW",
+        "roles": [
+          {
+            "organization": "Machine Learning Lead & Web Developer",
+            "date": "Sep 2024 - Present",
+            "points": [
+              "Built the Boring Club's website using HTML and JavaScript, resulting in a functional online presence entirely self-taught through online resources.",
+              "Secured the website and Raspberry Pi server using Cloudflare, improving the club's cybersecurity and uptime.",
+              "Used Verilog to develop an FPGA-based Traffic Light Simulator, gaining hands-on experience with digital design and hardware fundamentals."
+            ]
+          }
+        ]
+      },
+      {
         "title": "Husky Satellite Lab",
         "roles": [
           {
@@ -25,20 +39,6 @@
               "Created CAD designs of potentially in-house built cold gas propulsion systems for review and selection.",
               "Researched extensively on passive heating systems to ensure HuskySat-2 maintains optimal temperature conditions.",
               "Ran calculations using MATLAB to justify feasibility and effectiveness of passive heating louvers."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "The Boring Club at UW",
-        "roles": [
-          {
-            "organization": "Web Developer Lead and Project Lead",
-            "date": "Sep 2024 - Present",
-            "points": [
-              "Built the Boring Club's website using HTML and JavaScript, resulting in a functional online presence entirely self-taught through online resources.",
-              "Secured the website and Raspberry Pi server using Cloudflare, improving the club's cybersecurity and uptime.",
-              "Used Verilog to develop an FPGA-based Traffic Light Simulator, gaining hands-on experience with digital design and hardware fundamentals."
             ]
           }
         ]
