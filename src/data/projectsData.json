@@ -1,5 +1,43 @@
 [
-    {
+  {
+    "title": "Digital Fridge: AI-Powered Smart Food Management System",
+    "description": "A comprehensive full-stack web application revolutionizing food inventory management through cutting-edge AI technology. Built for Dubhacks 2025, this intelligent system combines React frontend with Flask backend, featuring Amazon Bedrock AI integration for advanced food recognition, QR/barcode scanning capabilities, and cloud-based data persistence. The application helps users reduce food waste through smart expiration tracking, automated shopping list generation, and AI-powered meal recommendations based on fridge contents. Key innovations include multi-modal item addition (barcode scanning, manual entry, image/video upload), real-time expiration alerts, and intelligent food categorization with nutrition data integration from USDA Food Database.",
+    "technologies": [
+      "React", 
+      "JavaScript", 
+      "Firebase Authentication", 
+      "Flask", 
+      "Python", 
+      "Amazon Bedrock AI", 
+      "AWS S3", 
+      "Boto3"
+    ],
+    "links": [
+      {
+        "text": "Live Demo",
+        "url": "https://youtu.be/eFFjNmSFdcA"
+      },
+      {
+        "text": "Presentation",
+        "url": "https://docs.google.com/presentation/d/1wVzj0-Z5pxkkTfD4eUCvY79C1UsW1lrIhYGuuMa0TXU/edit?usp=sharing"
+      },
+      {
+        "text": "Source Code", 
+        "url": "https://github.com/MagmaOverlord/Dubhacks-2025"
+      }
+    ]
+  },
+  {
+    "title": "Prism Reader",
+    "description": "A Chrome extension that uses AI to semantically analyze and highlight research papers and academic texts. Automatically identifies and color-codes different types of content to help researchers understand complex materials.",
+    "technologies": ["Chrome Extension API", "Chrome Prompt API", "Chrome Language Model API","JavaScript", "HTML5", "CSS3"],
+    "links": [
+      {"text": "Source Code",
+        "url": "https://github.com/Yd025/PrismReader"
+      }
+    ]
+  },
+  {
     "title": "Tennis Score Tracker",
     "description": "Used React to build a comprehensive tennis score tracking web app that allows users to configure games (sets, tie-break, service, player information) and keep track of match scores in real-time. Features include undo/redo functionality and exporting results with time stamps as a pdf.",
     "technologies": ["React", "JavaScript", "HTML", "CSS", "jsPDF"],
