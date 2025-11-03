@@ -8,6 +8,7 @@
             "organization": "Machine Learning Lead & Web Developer",
             "date": "Sep 2024 - Present",
             "points": [
+              "Leading a new machine learning project that takes in live visual data from a camera and classifies objects in real-time.",
               "Built the Boring Club's website using HTML and JavaScript, resulting in a functional online presence entirely self-taught through online resources.",
               "Secured the website and Raspberry Pi server using Cloudflare, improving the club's cybersecurity and uptime.",
               "Used Verilog to develop an FPGA-based Traffic Light Simulator, gaining hands-on experience with digital design and hardware fundamentals."
