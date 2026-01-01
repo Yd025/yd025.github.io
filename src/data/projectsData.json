@@ -1,7 +1,7 @@
 [
   {
     "title": "Digital Fridge (AWS Track)",
-    "description": "A comprehensive full-stack web application revolutionizing food inventory management through AI technology. Built for Dubhacks 2025, this application helps users reduce food waste through smart expiration tracking, automated shopping list generation, and AI-powered meal recommendations based on fridge contents. Key innovations include multi-modal item addition (barcode scanning, manual entry, image/video upload), real-time expiration alerts, and intelligent food categorization with nutrition data integration from USDA Food Database.",
+    "description": "This full-stack web application helps users reduce food waste through smart expiration tracking, automated shopping list generation, and AI-powered meal recommendations based on fridge contents. Key innovations include multi-modal item addition (barcode scanning, manual entry, image/video upload), real-time expiration alerts, and intelligent food categorization with nutrition data integration from USDA Food Database.",
     "technologies": [
       "React", 
       "JavaScript", 
