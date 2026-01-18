@@ -5,11 +5,9 @@
       "organization": "Husky Union Building",
       "date": "Sep 2024 - Present",
       "points": [
-        "Draft detailed event quotes and communicate with clients about room restrictions, AV needs, and service options.",
-        "Produce and update room layout diagrams, collaborating with event staff to assess feasibility and implement changes.",
-        "Assists in administrative and clerical duties at the information desk, including processing signed and completed event reservation paperwork and deadlines",
-        "Employs exceptional time management and prioritization skills to manage multiple daily, weekly, and monthly tasks alongside ongoing customer service responsibilities",
-        "Experienced in payment processing and point-of-sale cashiering for in-person transactions, including handling transactions exceeding $10,000 USD"
+        "Developed a dual-mode email automation script using Excel VBA and HTML/CSS to standardize event compliance communication, resulting in a 6x increase in workflow efficiency and the elimination of manual data entry errors.",
+        "Drafting detailed quotes and managed event logistics for 200+ events in the HUB by coordinating client needs, AV requirements, and service restrictions, ensuring smooth planning and high client satisfaction.",
+        "Assists in administrative and clerical duties at the information desk, including processing signed and completed event reservation paperwork and deadlines"
       ]
     },
     {
@@ -39,7 +37,7 @@
       "organization": "PIONEER Experiment, Experimental Nuclear Physics and Astrophysics (CENPA)",
       "date": "Sep 2025 - Present",
       "points": [
-        "Developing an Arduino-based diagnostic tool to automatically map faulty channels in a 16-pin controller, reducing weeks of manual debugging into instant feedback and enabling faster optimization of scintillator readout hardware."
+        "Analyzed FAST3 output inconsistencies by modeling circuit topology as a graph, revealing emergent AND/OR-like interactions between resistive elements that distorted channel gain mapping."
       ]
     },
     {

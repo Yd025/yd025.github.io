@@ -1,5 +1,35 @@
 [
   {
+    "title": "MOOV",
+    "description": "A mobile app for people with physical disabilities and mobility impairments that leverages computer vision and machine learning to provide real-time feedback on exercise form and technique using the device's camera. App is fully customizable to accommodate different mobility levels and types of disabilities, with features including adjustable exercise difficulty and voice-guided instructions. Project is submitted for the 2026 Hollomon Health Innovation Challenge by the Foster School of Business at UW.",
+    "technologies": [
+      "React", 
+      "JavaScript", 
+      "Firebase Authentication"
+    ],
+    "links": [
+      {
+        "text": "", 
+        "url": ""
+      }
+    ]
+  },{
+    "title": "Face Recognition Attendance System",
+    "description": "A full stack embedded system project that scans a person's face in real-time and uses a ML classification model to match the face to the member of the club, marking the person as present. As the Data Science lead, developed the computer vision model using Python, OpenCV, and Mediapipe to accurately detect and recognize faces and integrated the model with a Jetson Nano.",
+    "technologies": [
+      "Python", 
+      "OpenCV", 
+      "Mediapipe",
+      "Simulink",
+      "Jetson Nano"
+    ],
+    "links": [
+      {
+        "text": "Website", 
+        "url": "https://boringclubuw.org/projects.html"
+      }
+    ]
+  },{
     "title": "Digital Fridge (AWS Track)",
     "description": "This full-stack web application helps users reduce food waste through smart expiration tracking, automated shopping list generation, and AI-powered meal recommendations based on fridge contents. Key innovations include multi-modal item addition (barcode scanning, manual entry, image/video upload), real-time expiration alerts, and intelligent food categorization with nutrition data integration from USDA Food Database.",
     "technologies": [
@@ -24,6 +54,34 @@
       {
         "text": "Source Code", 
         "url": "https://github.com/MagmaOverlord/Dubhacks-2025"
+      }
+    ]
+  },
+  {
+    "title": "Recommendation System for Amazon Products",
+    "description": "This project involves recommending the best Amazon products available to users based on past rating data using recommendation systems techniques.",
+    "technologies": ["Ranked-Based Filtering", "User-Based Filtering", "Item-Based Filtering", "Matrix Factorization", "Python", "Pandas", "Surprise Library"],
+    "links": []
+  },
+  {
+    "title": "Potential Customers Prediction Project",
+    "description": "Analyzed and built an ML model to help identify which leads are more likely to convert to paid customers, found the factors driving the lead conversion process and created a profile of the leads who are likely to convert.",
+    "technologies": ["EDA", "Logistic Regression", "Data Preprocessing", "Classification", "Decision Trees", "Random Forest", "Python", "Pandas", "Matplotlib"],
+    "links": []
+  },
+  {
+    "title": "Customer Personality Segmentation Project",
+    "description": "Developed personalized marketing campaigns to increase conversion rates. Create effective retention strategies for high-value customers. Optimize resource allocation, such as inventory management, pricing strategies, and store layouts. ",
+    "technologies": ["EDA", "K-Means Clustering", "Dimensionality Reduction","Python", "Pandas", "Matplotlib"],
+    "links": []
+  },
+  {
+    "title": "The Boring Club Website",
+    "description": "Designed and developed The Boring Club's official website from the ground up to create a modern, user-friendly interface that effectively showcases the club's projects, events, and resources. Website was deployed on our own Raspberry Pi server, providing hands-on experience with web hosting and server management.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Raspberry Pi", "Cloudflare"],
+    "links": [
+      {"text": "Website",
+        "url": "https://boringclubuw.org/"
       }
     ]
   },

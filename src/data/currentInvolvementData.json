@@ -5,8 +5,8 @@
       "organization": "Husky Union Building",
       "date": "Sep 2024 - Present",
       "points": [
-        "Draft detailed event quotes and communicate with clients about room restrictions, AV needs, and service options.",
-        "Produce and update room layout diagrams, collaborating with event staff to assess feasibility and implement changes."
+        "Developed a dual-mode email automation script using Excel VBA and HTML/CSS to standardize event compliance communication, resulting in a 6x increase in workflow efficiency and the elimination of manual data entry errors.",
+        "Drafting detailed quotes and managed event logistics for 200+ events in the HUB by coordinating client needs, AV requirements, and service restrictions, ensuring smooth planning and high client satisfaction."
       ]
     },
     {
@@ -14,25 +14,26 @@
       "organization": "PIONEER Experiment, Experimental Nuclear Physics and Astrophysics (CENPA)",
       "date": "Sep 2025 - Present",
       "points": [
-        "Developing an Arduino-based diagnostic tool to automatically map faulty channels in a 16-pin controller, reducing weeks of manual debugging into instant feedback and enabling faster optimization of scintillator readout hardware."
+        "Analyzed FAST3 output inconsistencies by modeling circuit topology as a graph, revealing emergent AND/OR-like interactions between resistive elements that distorted channel gain mapping."
       ]
     },
     {
-      "title": "Machine Learning Lead & Web Developer",
+      "title": "Data Science Lead & Web Developer",
       "organization": "The Boring Club at UW",
       "date": "Sep 2024 - Present",
       "points": [
-        "Leading a new machine learning project that takes in live visual data from a camera and classifies objects in real-time.",
-        "Built the Boring Club's website using HTML and JavaScript, resulting in a functional online presence entirely self-taught through online resources."
+        "Leading the club to develop a real-time machine learning facial recognition attendance checker using live camera data, applying data engineering and model training techniques to enable accurate and efficient image classification.",
+        "Built and maintained the organization's website, growing traffic to 10,000 visitors and expanding online engagement."
       ]
     },
     {
-      "title": "Magnetorquers Lead",
-      "organization": "Husky Satellite Lab, Attitude Determination and Control Systems Subsystem (ADCS)",
-      "date": "Jan 2025 - Present",
-      "points": [
-        "Developing control systems by applying quaternion mathematics and linear algebra to fuse data from IMUs and magnetometers for precise magnetorquer coil actuation."
-      ]
-    }
+        "title": "Member",
+        "organization": "Batman's Kitchen",
+        "date": "Sep 2025 - Present",
+        "points": [
+          "Batman's Kitchen at the University of Washington is a club that participates in CTFs and CCDC, as well as other competitons to sharpen cyber security skills.",
+          "Competing in the Embedded Capture the Flag (eCTF) embedded security competition run by MITRE to design secure embedded systems against cyber attacks."
+        ]
+      }
   ]
 }

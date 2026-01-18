@@ -4,7 +4,7 @@ import gmailIcon from '../assets/images/gmail-old-svgrepo-com.svg';
 import resumeIcon from '../assets/images/resume-business-cv-work-job-curriculum-2-svgrepo-com.svg';
 import linkedinIcon from '../assets/images/linkedin-svgrepo-com.svg';
 import githubIcon from '../assets/images/github-142-svgrepo-com.svg';
-import resumePdf from '../assets/resume/Yidan_Ma_Adelin_Resume_2025_10.pdf';
+import resumePdf from '../assets/resume/Yidan_Ma_Adelin_resume_2026_01.pdf';
 
 
 export function SocialsSidebar() {
