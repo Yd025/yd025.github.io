@@ -56,7 +56,13 @@ export function Home() {
             </div>
             <div className="about-content">
               <p>
-                I am currently a student at the University of Washington, pursuing a double degree in Computer Engineering at the Paul G Allen School of Computer Science and Engineering and Mathematics at the College of Arts and Sciences. I am deeply fascinated by the intersection of technology and innovation, particularly in the fields of space technology and medical technology. I was born and raised in Singapore, but I am currently based in Seattle, Washington.
+                I am currently a student at the University of Washington, pursuing a double degree in Computer Engineering at the Paul G Allen School of Computer Science and Engineering and Mathematics at the College of Arts and Sciences. 
+                <br /><br />
+                At a high level, I'm interested in how structure shapes behavior. Many of the systems I care about—hardware architectures, cyber-physical systems, large software platforms—are complex not because their components are complicated, but because of how those components interact. My academic and research interests center on modeling these interactions using graphs, optimization techniques, scalable simulation, and structure-aware AI. I enjoy working on systems where understanding why something behaves a certain way matters as much as making it work.
+                <br /><br />
+                Before college, I spent nine months working full-time at a nonprofit deploying technology for elderly communities. Communicating technical ideas to non-technical audiences and seeing technology's real-world impact fundamentally shaped how I think about engineering.
+                <br /><br />
+                I'm currently planning to apply to UW's BS/MS program, with long-term goals of becoming a research-focused software engineer or research scientist in industry. I value depth, interpretability, and rigor—and I'm most motivated by problems that reward careful thinking about structure, scale, and emergence.
               </p>
             </div>
           </div>
