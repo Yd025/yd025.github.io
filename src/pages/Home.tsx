@@ -5,7 +5,7 @@ import { DetailModal } from '../components/DetailModal';
 import { ImageCarousel } from '../components/ImageCarousel';
 import data from '../data/currentInvolvementData.json';
 
-import heroBg from '../assets/carousel/Untitled_Artwork.jpg';
+import heroBg from '../assets/carousel/bg.jpg';
 import heroImage from '../assets/carousel/DSC_6679.jpg';
 
 /* Carousel: add more images to src/assets/carousel and list them here (6–10 recommended). */
