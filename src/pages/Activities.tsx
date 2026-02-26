@@ -3,54 +3,76 @@ import data from '../data/activitiesData.json';
 
 export function Activities() {
   return (
-    <>
-      <section className="container">
+    <div className="activities-page">
+      <section className="container section-block section-societies">
         <div className="page-header">
           <h1>Societies</h1>
         </div>
 
         {data.societies.main.map((society, index) => (
           <div className="experience-tab" key={`society-main-${index}`}>
-            <h3>{society.title}</h3>
-            {society.roles.map((role, rIndex) => (
-              <div key={`role-main-${rIndex}`}>
-                <div className="experience-tab-header">
-                  <div className="experience-tab-organization">{role.organization}</div>
-                  <div className="experience-tab-date">{role.date}</div>
-                </div>
-                <ul>
-                  {role.points.map((point, pIndex) => (
-                    <li key={`point-main-${pIndex}`}>{point}</li>
-                  ))}
-                </ul>
+            <div className="experience-tab-inner">
+              <div className="experience-tab-logo">
+                {(society as { logo?: string }).logo ? (
+                  <img src={(society as { logo?: string }).logo} alt="" />
+                ) : (
+                  <div className="experience-tab-logo-placeholder" aria-hidden>Logo</div>
+                )}
               </div>
-            ))}
+              <div className="experience-tab-body">
+                <h3>{society.title}</h3>
+                {society.roles.map((role, rIndex) => (
+                  <div key={`role-main-${rIndex}`}>
+                    <div className="experience-tab-header">
+                      <div className="experience-tab-organization">{role.organization}</div>
+                      <div className="experience-tab-date">{role.date}</div>
+                    </div>
+                    <ul>
+                      {role.points.map((point, pIndex) => (
+                        <li key={`point-main-${pIndex}`}>{point}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         ))}
         
         <ExpandableSection>
           {data.societies.expandable.map((society, index) => (
             <div className="experience-tab" key={`society-expand-${index}`}>
-              <h3>{society.title}</h3>
-              {society.roles.map((role, rIndex) => (
-                <div key={`role-expand-${rIndex}`}>
-                  <div className="experience-tab-header">
-                    <div className="experience-tab-organization">{role.organization}</div>
-                    <div className="experience-tab-date">{role.date}</div>
-                  </div>
-                  <ul>
-                    {role.points.map((point, pIndex) => (
-                      <li key={`point-expand-${pIndex}`}>{point}</li>
-                    ))}
-                  </ul>
+              <div className="experience-tab-inner">
+                <div className="experience-tab-logo">
+                  {(society as { logo?: string }).logo ? (
+                    <img src={(society as { logo?: string }).logo} alt="" />
+                  ) : (
+                    <div className="experience-tab-logo-placeholder" aria-hidden>Logo</div>
+                  )}
                 </div>
-              ))}
+                <div className="experience-tab-body">
+                  <h3>{society.title}</h3>
+                  {society.roles.map((role, rIndex) => (
+                    <div key={`role-expand-${rIndex}`}>
+                      <div className="experience-tab-header">
+                        <div className="experience-tab-organization">{role.organization}</div>
+                        <div className="experience-tab-date">{role.date}</div>
+                      </div>
+                      <ul>
+                        {role.points.map((point, pIndex) => (
+                          <li key={`point-expand-${pIndex}`}>{point}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           ))}
         </ExpandableSection>
       </section>
 
-      <section className="container">
+      <section className="container section-block section-community">
         <div className="page-header">
           <h1>Community</h1>
         </div>
@@ -79,6 +101,6 @@ export function Activities() {
           ))}
         </section>
       </section>
-    </>
+    </div>
   );
 }
