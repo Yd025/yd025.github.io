@@ -1,4 +1,5 @@
 import data from '../data/workData.json';
+import { resolveLogo } from '../utils/logoResolver';
 
 export function Work() {
   return (
@@ -8,16 +9,17 @@ export function Work() {
           <h1>Work</h1>
         </div>
 
-        {data.work.map((item, index) => (
+        {data.work.map((item, index) => {
+          const logoSrc = resolveLogo(item.logo);
+          return (
         <div className="experience-tab" key={`work-${index}`}>
           <div className="experience-tab-inner">
+            {logoSrc && (
             <div className="experience-tab-logo">
-              {(item as { logo?: string }).logo ? (
-                <img src={(item as { logo?: string }).logo} alt="" />
-              ) : (
-                <div className="experience-tab-logo-placeholder" aria-hidden>Logo</div>
-              )}
+              <img src={logoSrc} alt="" />
             </div>
+            )}
+
             <div className="experience-tab-body">
               <h3>{item.title}</h3>
               <div className="experience-tab-header">
@@ -32,7 +34,8 @@ export function Work() {
             </div>
           </div>
         </div>
-        ))}
+          );
+        })}
       </div>
 
       <div className="section-block section-research">
@@ -40,16 +43,17 @@ export function Work() {
           <h1>Research</h1>
         </div>
 
-        {data.research.map((item, index) => (
+        {data.research.map((item, index) => {
+          const logoSrc = resolveLogo(item.logo);
+          return (
         <div className="experience-tab" key={`research-${index}`}>
           <div className="experience-tab-inner">
+            {logoSrc && (
             <div className="experience-tab-logo">
-              {(item as { logo?: string }).logo ? (
-                <img src={(item as { logo?: string }).logo} alt="" />
-              ) : (
-                <div className="experience-tab-logo-placeholder" aria-hidden>Logo</div>
-              )}
+              <img src={logoSrc} alt="" />
             </div>
+            )}
+
             <div className="experience-tab-body">
               <h3>{item.title}</h3>
               <div className="experience-tab-header">
@@ -64,7 +68,8 @@ export function Work() {
             </div>
           </div>
         </div>
-        ))}
+          );
+        })}
       </div>
 
       <div className="section-block section-others">
@@ -72,16 +77,17 @@ export function Work() {
           <h1>Others</h1>
         </div>
 
-        {data.others.map((item, index) => (
+        {data.others.map((item, index) => {
+          const logoSrc = resolveLogo(item.logo);
+          return (
         <div className="experience-tab" key={`other-${index}`}>
           <div className="experience-tab-inner">
+            {logoSrc && (
             <div className="experience-tab-logo">
-              {(item as { logo?: string }).logo ? (
-                <img src={(item as { logo?: string }).logo} alt="" />
-              ) : (
-                <div className="experience-tab-logo-placeholder" aria-hidden>Logo</div>
-              )}
+              <img src={logoSrc} alt="" />
             </div>
+            )}
+
             <div className="experience-tab-body">
               <h3>{item.title}</h3>
               <div className="experience-tab-header">
@@ -96,7 +102,8 @@ export function Work() {
             </div>
           </div>
         </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );

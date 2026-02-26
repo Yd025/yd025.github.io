@@ -18,7 +18,7 @@ export function Layout() {
         <Outlet />
       </main>
       <footer>
-        <p>© 2025 Adelin Ma. All rights reserved.</p>
+        <p>© 2026 Adelin Ma. All rights reserved.</p>
       </footer>
     </>
   );

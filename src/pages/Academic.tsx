@@ -1,5 +1,6 @@
 import { ExpandableSection } from '../components/ExpandableSection';
 import data from '../data/academicData.json';
+import { resolveLogo } from '../utils/logoResolver';
 
 export function Academic() {
   return (
@@ -8,16 +9,16 @@ export function Academic() {
         <h1>Background</h1>
       </div>
 
-      {data.main.map((item, index) => (
+      {data.main.map((item, index) => {
+        const logoSrc = resolveLogo(item.logo);
+        return (
         <div className="experience-tab" key={`main-edu-${index}`}>
           <div className="experience-tab-inner">
+            {logoSrc && (
             <div className="experience-tab-logo">
-              {(item as { logo?: string }).logo ? (
-                <img src={(item as { logo?: string }).logo} alt="" />
-              ) : (
-                <div className="experience-tab-logo-placeholder" aria-hidden>Logo</div>
-              )}
+              <img src={logoSrc} alt="" />
             </div>
+            )}
             <div className="experience-tab-body">
               <h3 className="tab-title">{item.title}</h3>
               <div className="experience-tab-header">
@@ -34,19 +35,20 @@ export function Academic() {
             </div>
           </div>
         </div>
-      ))}
+        );
+      })}
 
       <ExpandableSection>
-        {data.expandable.map((item, index) => (
+        {data.expandable.map((item, index) => {
+          const logoSrc = resolveLogo(item.logo);
+          return (
           <div className="experience-tab" key={`expand-edu-${index}`}>
             <div className="experience-tab-inner">
+              {logoSrc && (
               <div className="experience-tab-logo">
-                {(item as { logo?: string }).logo ? (
-                  <img src={(item as { logo?: string }).logo} alt="" />
-                ) : (
-                  <div className="experience-tab-logo-placeholder" aria-hidden>Logo</div>
-                )}
+                <img src={logoSrc} alt="" />
               </div>
+              )}
               <div className="experience-tab-body">
                 <h3 className="tab-title">{item.title}</h3>
                 <div className="experience-tab-header">
@@ -61,7 +63,8 @@ export function Academic() {
               </div>
             </div>
           </div>
-        ))}
+          );
+        })}
       </ExpandableSection>
     </section>
   );

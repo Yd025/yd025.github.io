@@ -1,5 +1,6 @@
 import { ExpandableSection } from '../components/ExpandableSection';
 import data from '../data/activitiesData.json';
+import { resolveLogo } from '../utils/logoResolver';
 
 export function Activities() {
   return (
@@ -9,16 +10,16 @@ export function Activities() {
           <h1>Societies</h1>
         </div>
 
-        {data.societies.main.map((society, index) => (
+        {data.societies.main.map((society, index) => {
+          const logoSrc = resolveLogo(society.logo);
+          return (
           <div className="experience-tab" key={`society-main-${index}`}>
             <div className="experience-tab-inner">
+              {logoSrc && (
               <div className="experience-tab-logo">
-                {(society as { logo?: string }).logo ? (
-                  <img src={(society as { logo?: string }).logo} alt="" />
-                ) : (
-                  <div className="experience-tab-logo-placeholder" aria-hidden>Logo</div>
-                )}
+                <img src={logoSrc} alt="" />
               </div>
+              )}
               <div className="experience-tab-body">
                 <h3>{society.title}</h3>
                 {society.roles.map((role, rIndex) => (
@@ -37,19 +38,20 @@ export function Activities() {
               </div>
             </div>
           </div>
-        ))}
+          );
+        })}
         
         <ExpandableSection>
-          {data.societies.expandable.map((society, index) => (
+          {data.societies.expandable.map((society, index) => {
+            const logoSrc = resolveLogo(society.logo);
+            return (
             <div className="experience-tab" key={`society-expand-${index}`}>
               <div className="experience-tab-inner">
+                {logoSrc && (
                 <div className="experience-tab-logo">
-                  {(society as { logo?: string }).logo ? (
-                    <img src={(society as { logo?: string }).logo} alt="" />
-                  ) : (
-                    <div className="experience-tab-logo-placeholder" aria-hidden>Logo</div>
-                  )}
+                  <img src={logoSrc} alt="" />
                 </div>
+                )}
                 <div className="experience-tab-body">
                   <h3>{society.title}</h3>
                   {society.roles.map((role, rIndex) => (
@@ -68,7 +70,8 @@ export function Activities() {
                 </div>
               </div>
             </div>
-          ))}
+            );
+          })}
         </ExpandableSection>
       </section>
 

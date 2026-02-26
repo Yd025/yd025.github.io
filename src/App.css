@@ -38,7 +38,14 @@
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--bg);
+  background:
+    radial-gradient(ellipse at 10% 0%, rgba(228, 175, 160, 0.35) 0%, transparent 50%),
+    radial-gradient(ellipse at 40% 5%, rgba(232, 210, 160, 0.3) 0%, transparent 45%),
+    radial-gradient(ellipse at 90% 15%, rgba(220, 188, 178, 0.3) 0%, transparent 50%),
+    radial-gradient(ellipse at 15% 60%, rgba(253, 250, 246, 0.8) 0%, transparent 50%),
+    radial-gradient(ellipse at 60% 50%, rgba(240, 224, 210, 0.3) 0%, transparent 55%),
+    linear-gradient(160deg, #f2e5de 0%, #f5eddf 25%, #faf6f2 50%, #f2e4dc 80%, #f0ded7 100%);
+  background-attachment: fixed;
   color: var(--text);
   min-height: 100vh;
   display: flex;
@@ -215,7 +222,62 @@ html {
 
 /* Header styles */
 header {
-  padding: 1.5rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1rem 0;
+  background-color: transparent;
+  transition: background-color 0.35s ease, box-shadow 0.35s ease, padding 0.35s ease;
+}
+
+header.scrolled {
+  background-color: rgba(42, 40, 37, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  padding: 0.75rem 0;
+}
+
+header.scrolled .logo {
+  color: #f6f5f2;
+  font-size: 2.5rem;
+}
+
+header.scrolled nav a {
+  color: rgba(246, 245, 242, 0.65);
+}
+
+header.scrolled nav a:hover,
+header.scrolled nav a.active {
+  color: #f6f5f2;
+}
+
+header.scrolled nav a.active::after {
+  background: var(--accent-soft);
+}
+
+header.header-home .logo {
+  color: #f8f7f5;
+}
+
+header.header-home nav a {
+  color: rgba(248, 247, 245, 0.65);
+}
+
+header.header-home nav a:hover,
+header.header-home nav a.active {
+  color: #f8f7f5;
+}
+
+header.header-home nav a.active::after {
+  background: rgba(248, 247, 245, 0.6);
+}
+
+/* Spacer so content isn't hidden behind the fixed header */
+main {
+  padding-top: 110px;
 }
 
 .header-content {
@@ -225,13 +287,14 @@ header {
 }
 
 .logo {
-  font-family: var(--font-display);
+  font-family: "Ephesis", cursive;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 3.25rem;
   font-weight: 500;
   margin-bottom: 1rem;
   text-decoration: none;
   color: var(--text);
+  transition: color 0.35s ease, font-size 0.35s ease;
 }
 
 nav {
@@ -249,7 +312,7 @@ nav a {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 0.25rem;
-  transition: color 0.2s ease;
+  transition: color 0.35s ease;
 }
 
 nav a:hover {
@@ -291,6 +354,8 @@ nav a.active::after {
   background-size: cover;
   background-position: center;
   position: relative;
+  margin-top: -110px;
+  padding-top: 110px;
 
   -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
@@ -522,13 +587,14 @@ nav a.active::after {
   color: var(--text);
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--border);
+  text-align: center;
 }
 
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  align-content: center;
+  justify-content: center;
 }
 
 .skill-tag {
@@ -578,7 +644,7 @@ nav a.active::after {
 
 .section-photo-placeholder {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -839,7 +905,7 @@ nav a.active::after {
   font-weight: 600;
   color: var(--text);
   line-height: 1.3;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.65rem 0;
 }
 
 /* Logo block in every experience tab */
@@ -847,19 +913,24 @@ nav a.active::after {
   display: flex;
   gap: 1.25rem;
   align-items: flex-start;
+  position: relative;
 }
 
 .experience-tab-logo {
+  position: absolute;
+  top: -2px;
+  left: 0;
   flex-shrink: 0;
-  width: 56px;
-  height: 56px;
-  border-radius: 0.5rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 0.4rem;
   overflow: hidden;
   background: var(--border);
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 .experience-tab-logo img {
   width: 100%;
@@ -886,6 +957,10 @@ nav a.active::after {
   min-width: 0;
 }
 
+.experience-tab-body h3 {
+  padding-left: 46px;
+}
+
 .experience-tab-body .experience-tab-header {
   margin-bottom: 1rem;
 }
@@ -903,6 +978,7 @@ nav a.active::after {
 .experience-tab-organization {
   font-size: 1rem;
   font-weight: 500;
+  width: fit-content;
 }
 
 .experience-tab-date {
@@ -1290,6 +1366,7 @@ nav a.active::after {
 .service-card-organization {
   font-size: 1rem;
   font-weight: 500;
+  width: fit-content;
 }
 
 .service-card-date {
@@ -1346,9 +1423,6 @@ nav a.active::after {
   border-color: var(--section-work-accent);
 }
 
-.work-page .section-work .page-header h1 {
-  color: var(--section-work-accent);
-}
 
 .work-page .section-research .experience-tab-organization {
   color: var(--text);
@@ -1366,9 +1440,6 @@ nav a.active::after {
   border-color: var(--section-research-accent);
 }
 
-.work-page .section-research .page-header h1 {
-  color: var(--section-research-accent);
-}
 
 .work-page .section-others .experience-tab-organization {
   color: var(--text);
@@ -1386,9 +1457,6 @@ nav a.active::after {
   border-color: var(--section-others-accent);
 }
 
-.work-page .section-others .page-header h1 {
-  color: var(--section-others-accent);
-}
 
 /* Academic page – single section */
 .academic-page .experience-tab-organization {
@@ -1407,9 +1475,6 @@ nav a.active::after {
   border-color: var(--academic-accent);
 }
 
-.academic-page .page-header h1 {
-  color: var(--academic-accent);
-}
 
 /* Activities page: Societies / Community – each its own green */
 .activities-page .section-societies .experience-tab-organization {
@@ -1428,9 +1493,6 @@ nav a.active::after {
   border-color: var(--section-societies-accent);
 }
 
-.activities-page .section-societies .page-header h1 {
-  color: var(--section-societies-accent);
-}
 
 .activities-page .section-community .service-card-organization {
   color: var(--text);
@@ -1450,9 +1512,6 @@ nav a.active::after {
   border-color: var(--section-community-accent);
 }
 
-.activities-page .section-community .page-header h1 {
-  color: var(--section-community-accent);
-}
 
 .fixed-buttons {
   position: fixed;
@@ -1498,17 +1557,17 @@ nav a.active::after {
 
 /* Footer styles */
 footer {
-  background-color: var(--border);
+  background-color: transparent;
   width: 100%;
   padding: 1.5rem 0;
   margin-top: 5rem;
   text-align: center;
-  color: var(--text-muted);
+  color: var(--text);
 }
 
 footer p {
   font-size: 0.75rem;
-  color: var(--text-muted);
+  color: var(--text);
 }
 
 /* Typewriter animation */
@@ -1650,6 +1709,10 @@ footer p {
 
 /* Mobile Responsive Styles */
 @media (max-width: 767px) {
+  main {
+    padding-top: 120px;
+  }
+
   /* Container adjustments for mobile */
   .container {
     width: 90%;
@@ -1671,33 +1734,29 @@ footer p {
   }
 
   nav {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.3rem;
-    text-align: center;
-    width: 100%;
-    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.15rem 1.25rem;
   }
 
   nav a {
-    font-size: 0.75rem;
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.3rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: all 0.3s ease;
-    text-align: center;
+    font-size: 0.7rem;
+    padding: 0.2rem 0;
+    background-color: transparent;
     white-space: nowrap;
   }
 
   nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    transform: scale(1.05);
+    background-color: transparent;
+    transform: none;
   }
 
   /* Hero section mobile styles */
   .hero {
     min-height: 60vh;
-    padding: 0.5rem 0;
+    margin-top: -120px;
+    padding-top: 120px;
   }
 
   .hero-content {
@@ -1796,29 +1855,38 @@ footer p {
     padding: 1rem;
   }
 
+  .experience-tab-logo {
+    width: 28px;
+    height: 28px;
+  }
+
+  .experience-tab-body h3 {
+    padding-left: 36px;
+  }
+
   .experience-tab h3 {
     font-family: var(--font-display);
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 600;
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 0.75rem 0;
   }
 
   .experience-tab-header {
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.2rem;
   }
 
   .experience-tab-organization {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 
   .experience-tab-date {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
   }
 
   .experience-tab li {
-    font-size: 1rem;
-    margin-bottom: 0.4rem;
+    font-size: 0.85rem;
+    margin-bottom: 0.3rem;
   }
 
   /* Project cards mobile styles */
@@ -1847,12 +1915,12 @@ footer p {
   }
 
   .project-card-title {
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 
   .project-card-desc {
     -webkit-line-clamp: 3;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .project-card {
@@ -1911,33 +1979,33 @@ footer p {
 
   .service-card h3 {
     font-family: var(--font-display);
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 600;
   }
 
   .service-card-header {
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.2rem;
   }
 
   .service-card-organization {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 
   .service-card-date {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
   }
 
   .service-card-section h4 {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 
   .service-card-section p {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 
   .service-card-section li {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 
   /* Fixed buttons mobile styles */
