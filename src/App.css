@@ -628,7 +628,7 @@ nav a.active::after {
 
 .section-photo {
   flex-shrink: 0;
-  width: 38%;
+  width: 50%;
   min-width: 220px;
   border-radius: 1rem;
   overflow: hidden;
@@ -925,7 +925,7 @@ nav a.active::after {
   height: 36px;
   border-radius: 0.4rem;
   overflow: hidden;
-  background: var(--border);
+  background: var(--card-bg);
   display: flex;
   align-items: center;
   justify-content: center;

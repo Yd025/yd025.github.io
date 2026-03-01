@@ -22,7 +22,7 @@ export function Navbar() {
     <header className={classes}>
       <div className="container">
         <div className="header-content">
-          <NavLink to="/" className="logo">Adelin Ma</NavLink>
+          <NavLink to="/" className="logo">Yidan Ma</NavLink>
           <nav>
             <NavLink to="/">HOME</NavLink>
             <NavLink to="/work">WORK</NavLink>

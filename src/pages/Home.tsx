@@ -7,7 +7,7 @@ import data from '../data/currentInvolvementData.json';
 
 import heroBg from '../assets/carousel/bg.png';
 import heroImage from '../assets/carousel/pfp.jpg';
-import skillsImage from '../assets/carousel/skills.jpeg';
+import skillsImage from '../assets/carousel/skills.jpg';
 
 /* Carousel: add more images to src/assets/carousel and list them here (6–10 recommended). */
 const CAROUSEL_IMAGES = [
@@ -141,8 +141,9 @@ export function Home() {
             </div>
             <div className="section-with-photo-inner">
               <div className="section-photo section-photo-left">
+                <img src={skillsImage} alt="You" />
                 {/* Replace with your image: <img src={yourImage} alt="You" /> or use style={{ backgroundImage: `url(${yourImage})` }} */}
-                <div className="section-photo-placeholder" style={{ backgroundImage: `url(${skillsImage})` }} aria-hidden="true">Your photo</div>
+                {/* <div className="section-photo-placeholder" style={{ backgroundImage: `url(${skillsImage})` }} aria-hidden="true">Your photo</div> */}
               </div>
               <div className="section-content skills-section">
                 <div className="skill-category">
@@ -157,12 +158,12 @@ export function Home() {
                     {skills.libraries.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
                   </div>
                 </div>
-                <div className="skill-category">
+                {/* <div className="skill-category">
                   <h4>Laboratory & Methodologies</h4>
                   <div className="skill-tags">
                     {skills.laboratory.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
                   </div>
-                </div>
+                </div> */}
                 <div className="skill-category">
                   <h4>Languages</h4>
                   <div className="skill-tags">
