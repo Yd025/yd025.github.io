@@ -5,19 +5,19 @@ import { DetailModal } from '../components/DetailModal';
 import { ImageCarousel } from '../components/ImageCarousel';
 import data from '../data/currentInvolvementData.json';
 
-import heroBg from '../assets/carousel/bg.jpg';
-import heroImage from '../assets/carousel/DSC_6679.jpg';
+import heroBg from '../assets/carousel/bg.png';
+import heroImage from '../assets/carousel/pfp.jpg';
+import skillsImage from '../assets/carousel/skills.jpeg';
 
 /* Carousel: add more images to src/assets/carousel and list them here (6–10 recommended). */
 const CAROUSEL_IMAGES = [
-  { src: heroBg, alt: 'Artwork' },
-  { src: heroImage, alt: 'Portrait' },
-  { src: heroBg, alt: 'Artwork' },
-  { src: heroImage, alt: 'Portrait' },
-  { src: heroBg, alt: 'Artwork' },
-  { src: heroImage, alt: 'Portrait' },
-  { src: heroBg, alt: 'Artwork' },
-  { src: heroImage, alt: 'Portrait' },
+  { src: '../src/assets/carousel/dubhacks.jpg', alt: 'dubhacks' },
+  { src: '../src/assets/carousel/mit.jpeg', alt: 'mit' },
+  { src: '../src/assets/carousel/andy.jpg', alt: 'andy' },
+  { src: '../src/assets/carousel/makemit.jpg', alt: 'makemit' },
+  { src: '../src/assets/carousel/scc.jpg', alt: 'scc' },
+  { src: '../src/assets/carousel/neurohack.jpeg', alt: 'neurohack' },
+  { src: '../src/assets/carousel/tbc.jpeg', alt: 'tbc' }
 ];
 
 const GREETINGS = [
@@ -142,7 +142,7 @@ export function Home() {
             <div className="section-with-photo-inner">
               <div className="section-photo section-photo-left">
                 {/* Replace with your image: <img src={yourImage} alt="You" /> or use style={{ backgroundImage: `url(${yourImage})` }} */}
-                <div className="section-photo-placeholder" aria-hidden>Your photo</div>
+                <div className="section-photo-placeholder" style={{ backgroundImage: `url(${skillsImage})` }} aria-hidden="true">Your photo</div>
               </div>
               <div className="section-content skills-section">
                 <div className="skill-category">
