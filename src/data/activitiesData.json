@@ -2,6 +2,7 @@
   "societies": {
     "main": [
       {
+        "logo": "uw.png",
         "title": "The Boring Club at UW",
         "roles": [
           {
@@ -17,6 +18,7 @@
         ]
       },
       {
+        "logo": "uw.png",
         "title": "Batman's Kitchen",
         "roles": [
           {
@@ -30,6 +32,7 @@
         ]
       },
       {
+        "logo": "uw.png",
         "title": "Husky Satellite Lab",
         "roles": [
           {
@@ -60,6 +63,7 @@
     ],
     "expandable": [
       {
+        "logo": "uw.png",
         "title": "Synaptech",
         "roles": [
           {
@@ -73,6 +77,7 @@
         ]
       },
       {
+        "logo": "uw.png",
         "title": "Husky Tennis Club",
         "roles": [
           {
@@ -86,6 +91,7 @@
         ]
       },
       {
+        "logo": "hci.png",
         "title": "Hwa Chong Astronomy Club",
         "roles": [
           {
@@ -99,6 +105,7 @@
         ]
       }, 
       {
+        "logo": "hci.png",
         "title": "Hwa Chong Tennis",
         "roles": [
           {

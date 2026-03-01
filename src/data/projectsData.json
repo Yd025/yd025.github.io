@@ -1,211 +1,141 @@
 [
   {
     "title": "MOOV",
+    "type": "hackathon",
     "description": "A mobile app for people with physical disabilities and mobility impairments that leverages computer vision and machine learning to provide real-time feedback on exercise form and technique using the device's camera. App is fully customizable to accommodate different mobility levels and types of disabilities, with features including adjustable exercise difficulty and voice-guided instructions. Project is submitted for the 2026 Hollomon Health Innovation Challenge by the Foster School of Business at UW.",
-    "technologies": [
-      "React", 
-      "JavaScript", 
-      "Firebase Authentication"
-    ],
-    "links": [
-      {
-        "text": "", 
-        "url": ""
-      }
-    ]
-  },{
+    "technologies": ["React", "JavaScript", "Firebase Authentication"],
+    "links": [{"text": "", "url": ""}]
+  },
+  {
     "title": "Face Recognition Attendance System",
+    "type": "club",
     "description": "A full stack embedded system project that scans a person's face in real-time and uses a ML classification model to match the face to the member of the club, marking the person as present. As the Data Science lead, developed the computer vision model using Python, OpenCV, and Mediapipe to accurately detect and recognize faces and integrated the model with a Jetson Nano.",
-    "technologies": [
-      "Python", 
-      "OpenCV", 
-      "Mediapipe",
-      "Simulink",
-      "Jetson Nano"
-    ],
-    "links": [
-      {
-        "text": "Website", 
-        "url": "https://boringclubuw.org/projects.html"
-      }
-    ]
-  },{
+    "technologies": ["Python", "OpenCV", "Mediapipe", "Simulink", "Jetson Nano"],
+    "links": [{"text": "Website", "url": "https://boringclubuw.org/projects.html"}]
+  },
+  {
     "title": "Digital Fridge (AWS Track)",
+    "type": "hackathon",
     "description": "This full-stack web application helps users reduce food waste through smart expiration tracking, automated shopping list generation, and AI-powered meal recommendations based on fridge contents. Key innovations include multi-modal item addition (barcode scanning, manual entry, image/video upload), real-time expiration alerts, and intelligent food categorization with nutrition data integration from USDA Food Database.",
-    "technologies": [
-      "React", 
-      "JavaScript", 
-      "Firebase Authentication", 
-      "Flask", 
-      "Python", 
-      "Amazon Bedrock AI", 
-      "AWS S3", 
-      "Boto3"
-    ],
+    "technologies": ["React", "JavaScript", "Firebase Authentication", "Flask", "Python", "Amazon Bedrock AI", "AWS S3", "Boto3"],
     "links": [
-      {
-        "text": "Live Demo",
-        "url": "https://youtu.be/eFFjNmSFdcA"
-      },
-      {
-        "text": "Presentation",
-        "url": "https://docs.google.com/presentation/d/1wVzj0-Z5pxkkTfD4eUCvY79C1UsW1lrIhYGuuMa0TXU/edit?usp=sharing"
-      },
-      {
-        "text": "Source Code", 
-        "url": "https://github.com/MagmaOverlord/Dubhacks-2025"
-      }
+      {"text": "Live Demo", "url": "https://youtu.be/eFFjNmSFdcA"},
+      {"text": "Presentation", "url": "https://docs.google.com/presentation/d/1wVzj0-Z5pxkkTfD4eUCvY79C1UsW1lrIhYGuuMa0TXU/edit?usp=sharing"},
+      {"text": "Source Code", "url": "https://github.com/MagmaOverlord/Dubhacks-2025"}
     ]
   },
   {
     "title": "Recommendation System for Amazon Products",
+    "type": "data",
     "description": "This project involves recommending the best Amazon products available to users based on past rating data using recommendation systems techniques.",
     "technologies": ["Ranked-Based Filtering", "User-Based Filtering", "Item-Based Filtering", "Matrix Factorization", "Python", "Pandas", "Surprise Library"],
     "links": []
   },
   {
     "title": "Potential Customers Prediction Project",
+    "type": "data",
     "description": "Analyzed and built an ML model to help identify which leads are more likely to convert to paid customers, found the factors driving the lead conversion process and created a profile of the leads who are likely to convert.",
     "technologies": ["EDA", "Logistic Regression", "Data Preprocessing", "Classification", "Decision Trees", "Random Forest", "Python", "Pandas", "Matplotlib"],
     "links": []
   },
   {
     "title": "Customer Personality Segmentation Project",
-    "description": "Developed personalized marketing campaigns to increase conversion rates. Create effective retention strategies for high-value customers. Optimize resource allocation, such as inventory management, pricing strategies, and store layouts. ",
-    "technologies": ["EDA", "K-Means Clustering", "Dimensionality Reduction","Python", "Pandas", "Matplotlib"],
+    "type": "data",
+    "description": "Developed personalized marketing campaigns to increase conversion rates. Create effective retention strategies for high-value customers. Optimize resource allocation, such as inventory management, pricing strategies, and store layouts.",
+    "technologies": ["EDA", "K-Means Clustering", "Dimensionality Reduction", "Python", "Pandas", "Matplotlib"],
     "links": []
   },
   {
     "title": "The Boring Club Website",
+    "type": "club",
     "description": "Designed and developed The Boring Club's official website from the ground up to create a modern, user-friendly interface that effectively showcases the club's projects, events, and resources. Website was deployed on our own Raspberry Pi server, providing hands-on experience with web hosting and server management.",
     "technologies": ["HTML", "CSS", "JavaScript", "Raspberry Pi", "Cloudflare"],
-    "links": [
-      {"text": "Website",
-        "url": "https://boringclubuw.org/"
-      }
-    ]
+    "links": [{"text": "Website", "url": "https://boringclubuw.org/"}]
   },
   {
     "title": "Prism Reader",
+    "type": "personal",
     "description": "A Chrome extension that uses AI to semantically analyze and highlight research papers and academic texts. Automatically identifies and color-codes different types of content to help researchers understand complex materials.",
-    "technologies": ["Chrome Extension API", "Chrome Prompt API", "Chrome Language Model API","JavaScript", "HTML5", "CSS3"],
-    "links": [
-      {"text": "Source Code",
-        "url": "https://github.com/Yd025/PrismReader"
-      }
-    ]
+    "technologies": ["Chrome Extension API", "Chrome Prompt API", "Chrome Language Model API", "JavaScript", "HTML5", "CSS3"],
+    "links": [{"text": "Source Code", "url": "https://github.com/Yd025/PrismReader"}]
   },
   {
     "title": "Tennis Score Tracker",
+    "type": "personal",
     "description": "Used React to build a comprehensive tennis score tracking web app that allows users to configure games (sets, tie-break, service, player information) and keep track of match scores in real-time. Features include undo/redo functionality and exporting results with time stamps as a pdf.",
     "technologies": ["React", "JavaScript", "HTML", "CSS", "jsPDF"],
-    "links": [
-      {"text": "Source Code",
-        "url": "https://github.com/Yd025/TennisScoreTracker"
-      }
-    ]
+    "links": [{"text": "Source Code", "url": "https://github.com/Yd025/TennisScoreTracker"}]
   },
   {
     "title": "Travel Logger",
+    "type": "personal",
     "description": "Used React to build a travel logging web app that allows users to add pins to locations they have been + want to go on an interactive map. Logger is complete with notes for each location visited and a filter to view locations by trips. Supports auto-save to JSON file and data persistence with localStorage.",
     "technologies": ["React", "JavaScript", "HTML", "CSS", "MapLibre GL"],
-    "links": [
-      {"text": "Source Code",
-        "url": "https://github.com/Yd025/TravelLog"
-      }
-    ]
+    "links": [{"text": "Source Code", "url": "https://github.com/Yd025/TravelLog"}]
   },
   {
     "title": "Project Microwave",
+    "type": "hackathon",
     "description": "Visualized delta-to-gamma waves across eight EEG channels using a OpenBCI Ultracortex Biosensing Headset during a memory game with unexpected jump-scares, revealing how brain waves change under focused attention and surprise. Project was created as part of the 3-day-2-night Neurohackathon 2025 by Synaptech at UW.",
     "technologies": ["Python", "Pandas", "NumPy", "Matplotlib", "OpenBCI"],
     "links": [
-      {"text": "Source Code",
-        "url": "https://github.com/truongmleon/ProjectMicrowave"
-      }, {
-        "text": "Presentation",
-        "url": "https://docs.google.com/presentation/d/17mPElucITtFA6H9lVMfBPB5JHA2q1Ucmo83RbXPtuYY/edit?usp=sharing"
-      }
+      {"text": "Source Code", "url": "https://github.com/truongmleon/ProjectMicrowave"},
+      {"text": "Presentation", "url": "https://docs.google.com/presentation/d/17mPElucITtFA6H9lVMfBPB5JHA2q1Ucmo83RbXPtuYY/edit?usp=sharing"}
     ]
   },
   {
     "title": "Spatial and Machine Learning Analysis of Motor Vehicle Theft",
-    "description": "Used Pandas, GeoPandas to analyze >50,000 crime records, identifying 5 major theft hotspots and seasonal trends and used CatBoost in a three-stage classification model todistinguish motor vehicle theft from theft-from-vehicle incidents, achieving balanced precision and recall for robust, interpretable predictions.",
+    "type": "class",
+    "description": "Used Pandas, GeoPandas to analyze >50,000 crime records, identifying 5 major theft hotspots and seasonal trends and used CatBoost in a three-stage classification model to distinguish motor vehicle theft from theft-from-vehicle incidents, achieving balanced precision and recall for robust, interpretable predictions.",
     "technologies": ["Python", "Pandas", "GeoPandas", "CatBoost", "Plotly", "Seaborn", "Scikit-learn", "SciPy"],
     "links": []
   },
   {
     "title": "Retail: Accelerating the Sales of the Modecraft Ecommerce Store",
-    "description": "Special mentions for Best Data Analysis and Best Data Visualization to Datathon 2025 organized by DubsTech, tackling the “Retail: Accelerating the Sales of the Modecraft Ecommerce Store” challenge, analyzing over 500,000 orders to generate monthly trend summaries, product-level performance metrics, and customer insights.",
+    "type": "data",
+    "description": "Special mentions for Best Data Analysis and Best Data Visualization to Datathon 2025 organized by DubsTech, tackling the Retail: Accelerating the Sales of the Modecraft Ecommerce Store challenge, analyzing over 500,000 orders to generate monthly trend summaries, product-level performance metrics, and customer insights.",
     "technologies": ["Python", "Pandas", "Matplotlib", "Microsoft Excel"],
     "links": [
-      {
-        "text": "Report",
-        "url": "https://github.com/Oscariano/Datathon2025/blob/main/Final_Report_Datathon2025.pdf"
-      },
-      {
-        "text": "Source Code",
-        "url": "https://github.com/Oscariano/Datathon2025"
-      }
+      {"text": "Report", "url": "https://github.com/Oscariano/Datathon2025/blob/main/Final_Report_Datathon2025.pdf"},
+      {"text": "Source Code", "url": "https://github.com/Oscariano/Datathon2025"}
     ]
   },
   {
     "title": "Ordito AI File Organizer",
+    "type": "hackathon",
     "description": "Built a full-stack offline desktop application for the 8VC x DubHacks Next Hack Night that scans files on the local machine, leverages an embedded LLaMA AI model to analyze content and automatically suggests destination folders based on both file contents and the user's existing directory structure with over 90% accuracy, cutting manual sorting time down to seconds. Supports drag-and-drop file management plus manual override for seamless, entirely offline operation.",
     "technologies": ["Python", "LLaMA AI", "Tkinter"],
-    "links": [
-      {
-        "text": "Source Code",
-        "url": "https://github.com/Yd025/ordito-ai"
-      }
-    ]
+    "links": [{"text": "Source Code", "url": "https://github.com/Yd025/ordito-ai"}]
   },
   {
     "title": "DreamScape",
+    "type": "hackathon",
     "description": "FigBuild 2025 challenged teams to pick a superpower and create a tool to manage it. We built a Figma prototype sleep-control management with features for brainpower tracking and an intuitive rotating-knob interface for adjusting dream parameters. Designed for seamless UI/UX, it lets users schedule, monitor, and fine-tune their dream cycles with real-time visualization.",
     "technologies": ["Figma", "UI", "UX"],
-    "links": [
-      {
-        "text": "Presentation",
-        "url": "https://www.figma.com/slides/GMzvOl3CQ6AfINOiuE4MI0/FigBuild-2025-Team-BurntAlho-DreamScape?node-id=1-23&t=9ubdHLtdQXNN7oK5-1"
-      }
-    ]
+    "links": [{"text": "Presentation", "url": "https://www.figma.com/slides/GMzvOl3CQ6AfINOiuE4MI0/FigBuild-2025-Team-BurntAlho-DreamScape?node-id=1-23&t=9ubdHLtdQXNN7oK5-1"}]
   },
   {
     "title": "Mancala Game",
+    "type": "class",
     "description": "Built a Java implementation of the classic Mancala board game created for CSE 123. Includes three variants of Mancala, including Reverse Mancala, Custom Mancala, and Infinite Mancala, showcasing modular OOP design, inheritance, and polymorphism.",
     "technologies": ["Java", "Object-Oriented Programming"],
-    "links": [
-      {
-        "text": "Source Code",
-        "url": "https://github.com/Yd025/CustomMancala"
-      }
-    ]
+    "links": [{"text": "Source Code", "url": "https://github.com/Yd025/CustomMancala"}]
   },
   {
     "title": "TAG Lost & Found",
+    "type": "hackathon",
     "description": "Created a pitch deck for a community-driven lost and found platform for the Lavin Startup Studio 2024 entrepreneurship competition designed to maximize lost item recovery on campus. Users submit reports of lost or found items with geo-tagged locations, browse live listings, and coordinate pickups at verified collection points.",
     "technologies": ["No code"],
-    "links": [
-      {
-        "text": "Presentation",
-        "url": "https://docs.google.com/presentation/d/18mezIgQi7CNvHzDrxHfUQ_UWq3l_KQnvJdJ_cG6mqU4/edit?usp=sharing"
-      }
-    ]
+    "links": [{"text": "Presentation", "url": "https://docs.google.com/presentation/d/18mezIgQi7CNvHzDrxHfUQ_UWq3l_KQnvJdJ_cG6mqU4/edit?usp=sharing"}]
   },
   {
     "title": "Mugger Life",
+    "type": "personal",
     "description": "Built a Telegram bot that anonymously collects academic questions from students via one-to-one messages and forwards them into a public channel so peers can help answer. The channel grew to over 600 members and processed more than 1,000 queries.",
     "technologies": ["Heroku", "BotFather"],
     "links": [
-      {
-        "text": "Live Bot",
-        "url": "https://t.me/Omelebot"
-      },
-      {
-        "text": "Telegram Channel",
-        "url": "https://t.me/muggerlife"
-      }
+      {"text": "Live Bot", "url": "https://t.me/Omelebot"},
+      {"text": "Telegram Channel", "url": "https://t.me/muggerlife"}
     ]
   }
 ]

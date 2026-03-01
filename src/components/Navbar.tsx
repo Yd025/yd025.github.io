@@ -1,18 +1,28 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
-/**
- * Renders the main navigation bar for the portfolio.
- * It uses NavLink from react-router-dom to automatically apply an 'active' class
- * to the link corresponding to the current page, which helps in styling the active link.
- */
 export function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  const classes = [
+    scrolled ? 'scrolled' : '',
+    isHome && !scrolled ? 'header-home' : '',
+  ].filter(Boolean).join(' ');
+
   return (
-    <header>
+    <header className={classes}>
       <div className="container">
         <div className="header-content">
-          {/* Logo links to the homepage */}
-          <NavLink to="/" className="logo">Adelin Ma</NavLink>
-          {/* Navigation links */}
+          <NavLink to="/" className="logo">Yidan Ma</NavLink>
           <nav>
             <NavLink to="/">HOME</NavLink>
             <NavLink to="/work">WORK</NavLink>

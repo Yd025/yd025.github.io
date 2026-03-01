@@ -1,6 +1,7 @@
 {
   "main": [
     {
+      "logo": "uw.png",
       "title": "University of Washington, Seattle",
       "organization": "B.S. in Computer Engineering and B.A. in Mathematics: Standard | GPA 3.83/4.00",
       "date": "2024 - Present",
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "logo": "mit.png",
       "title": "Massachusetts Institute of Technology",
       "organization": "Schwarzman College of Computing and IDSS | Synchronous Online",
       "date": "Sep 2025 - Jan 2026",
@@ -20,6 +22,7 @@
       ]
     },
     {
+      "logo": "epfl.png",
       "title": "École Polytechnique Fédérale de Lausanne",
       "organization": "Summer Study Abroad in Lausanne, Switzerland",
       "date": "Aug 2025",
@@ -29,6 +32,7 @@
       ]
     },
     {
+      "logo": "tohoku.png",
       "title": "Tohoku University",
       "organization": "Summer Study Abroad in Sendai, Japan",
       "date": "Jul 2025",
@@ -38,6 +42,7 @@
       ]
     },
     {
+      "logo": "uw.png",
       "title": "University of Washington Rome Center",
       "organization": "Early-Fall Study Abroad in Rome, Italy",
       "date": "Sep 2024",
@@ -50,6 +55,7 @@
   ],
   "expandable": [
     {
+      "logo": "hci.png",
       "title": "Hwa Chong Institution",
       "organization": "Singapore GCE A-Levels and Hwa Chong Diploma",
       "date": "2022 - 2023",
@@ -64,6 +70,7 @@
       ]
     },
     {
+      "logo": "nygh.png",
       "title": "Nanyang Girls' High School",
       "organization": "Integrated Programme Secondary Education",
       "date": "2018 - 2021",

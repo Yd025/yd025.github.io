@@ -1,10 +1,24 @@
+import { useState } from 'react';
 import { useTypewriter } from '../hooks/useTypewriter';
 import { Reveal } from '../components/Reveal';
+import { DetailModal } from '../components/DetailModal';
+import { ImageCarousel } from '../components/ImageCarousel';
 import data from '../data/currentInvolvementData.json';
 
-// Step 1: Import your images from the assets folder
-import heroBg from '../assets/images/Untitled_Artwork.jpg';
-import heroImage from '../assets/images/DSC_6679.jpg';
+import heroBg from '../assets/carousel/bg.png';
+import heroImage from '../assets/carousel/pfp.jpg';
+import skillsImage from '../assets/carousel/skills.jpg';
+
+/* Carousel: add more images to src/assets/carousel and list them here (6–10 recommended). */
+const CAROUSEL_IMAGES = [
+  { src: '../src/assets/carousel/dubhacks.jpg', alt: 'dubhacks' },
+  { src: '../src/assets/carousel/mit.jpeg', alt: 'mit' },
+  { src: '../src/assets/carousel/andy.jpg', alt: 'andy' },
+  { src: '../src/assets/carousel/makemit.jpg', alt: 'makemit' },
+  { src: '../src/assets/carousel/scc.jpg', alt: 'scc' },
+  { src: '../src/assets/carousel/neurohack.jpeg', alt: 'neurohack' },
+  { src: '../src/assets/carousel/tbc.jpeg', alt: 'tbc' }
+];
 
 const GREETINGS = [
   "Hello,\nI am Adelin",
@@ -20,6 +34,7 @@ const skills = {
 
 export function Home() {
   const typewriterText = useTypewriter(GREETINGS);
+  const [modalInvolvement, setModalInvolvement] = useState<typeof data.involvements[0] | null>(null);
 
   return (
     <>
@@ -70,58 +85,90 @@ export function Home() {
       </Reveal>
 
       <Reveal>
-        <br />
-        <section className="container">
-          <div className="page-header">
-            <h1>Current Involvements</h1>
-          </div>
-          {data.involvements.map((item, index) => (
-            <div className="experience-tab" key={`involvement-${index}`}>
-              <h3>{item.title}</h3>
-              <div className="experience-tab-header">
-                <div className="experience-tab-organization">{item.organization}</div>
-                <div className="experience-tab-date">{item.date}</div>
-              </div>
-              <ul>
-                {item.points.map((point, pIndex) => (
-                  <li key={`involvement-point-${pIndex}`}>{point}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </section>
+        <ImageCarousel images={CAROUSEL_IMAGES} duration={50} />
       </Reveal>
 
       <Reveal>
-        <section className="about">
+        <section className="container involvements-section">
+          <div className="page-header">
+            <h1>Current Involvements</h1>
+          </div>
+          <div className="involvements-grid">
+            {data.involvements.map((item, index) => (
+              <article
+                className="involvement-card involvement-card-compact"
+                key={`involvement-${index}`}
+                onClick={() => setModalInvolvement(item)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    setModalInvolvement(item);
+                  }
+                }}
+                role="button"
+                tabIndex={0}
+                aria-label={`View details for ${item.title}`}
+              >
+                <h3 className="involvement-title">{item.title}</h3>
+                <p className="involvement-meta">{item.organization} · {item.date}</p>
+                <span className="involvement-view-hint">View details →</span>
+              </article>
+            ))}
+          </div>
+        </section>
+      </Reveal>
+
+      <DetailModal
+        open={!!modalInvolvement}
+        onClose={() => setModalInvolvement(null)}
+        title={modalInvolvement?.title ?? ''}
+        subtitle={modalInvolvement ? `${modalInvolvement.organization} · ${modalInvolvement.date}` : undefined}
+      >
+        {modalInvolvement && (
+          <ul className="detail-modal-points">
+            {modalInvolvement.points.map((point, pIndex) => (
+              <li key={pIndex}>{point}</li>
+            ))}
+          </ul>
+        )}
+      </DetailModal>
+
+      <Reveal>
+        <section className="about section-with-photo">
           <div className="container">
             <div className="page-header">
               <h1>Skills</h1>
             </div>
-            {/* Updated Skills Section */}
-            <div className="skills-section">
-              <div className="skill-category">
-                <h4>Technical</h4>
-                <div className="skill-tags">
-                  {skills.technical.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
-                </div>
+            <div className="section-with-photo-inner">
+              <div className="section-photo section-photo-left">
+                <img src={skillsImage} alt="You" />
+                {/* Replace with your image: <img src={yourImage} alt="You" /> or use style={{ backgroundImage: `url(${yourImage})` }} */}
+                {/* <div className="section-photo-placeholder" style={{ backgroundImage: `url(${skillsImage})` }} aria-hidden="true">Your photo</div> */}
               </div>
-              <div className="skill-category">
-                <h4>Libraries & Frameworks</h4>
-                <div className="skill-tags">
-                  {skills.libraries.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
+              <div className="section-content skills-section">
+                <div className="skill-category">
+                  <h4>Technical</h4>
+                  <div className="skill-tags">
+                    {skills.technical.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
+                  </div>
                 </div>
-              </div>
-              <div className="skill-category">
-                <h4>Laboratory & Methodologies</h4>
-                <div className="skill-tags">
-                  {skills.laboratory.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
+                <div className="skill-category">
+                  <h4>Libraries & Frameworks</h4>
+                  <div className="skill-tags">
+                    {skills.libraries.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
+                  </div>
                 </div>
-              </div>
-              <div className="skill-category">
-                <h4>Languages</h4>
-                <div className="skill-tags">
-                  {skills.language.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
+                {/* <div className="skill-category">
+                  <h4>Laboratory & Methodologies</h4>
+                  <div className="skill-tags">
+                    {skills.laboratory.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
+                  </div>
+                </div> */}
+                <div className="skill-category">
+                  <h4>Languages</h4>
+                  <div className="skill-tags">
+                    {skills.language.map(skill => <span className="skill-tag" key={skill}>{skill}</span>)}
+                  </div>
                 </div>
               </div>
             </div>

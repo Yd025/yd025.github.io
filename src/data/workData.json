@@ -1,6 +1,7 @@
 {
   "work": [
     {
+      "logo": "hub.png",
       "title": "Meeting Reservation Specialist",
       "organization": "Husky Union Building",
       "date": "Sep 2024 - Present",
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "logo": "lions-befrienders.png",
       "title": "TechCare Intern",
       "organization": "Lions Befrienders",
       "date": "Feb 2024 - Aug 2024",
@@ -21,6 +23,7 @@
       ]
     },
     {
+      "logo": "dewtouch.png",
       "title": "Product Development Intern",
       "organization": "DewTouch Innovations Pte Ltd",
       "date": "Jun 2023",
@@ -33,6 +36,7 @@
   ],
   "research": [
     {
+      "logo": "uw.png",
       "title": "Analog Electronic Researcher",
       "organization": "PIONEER Experiment, Experimental Nuclear Physics and Astrophysics (CENPA)",
       "date": "Sep 2025 - Present",
@@ -41,6 +45,7 @@
       ]
     },
     {
+      "logo": "uw.png",
       "title": "Student Researcher",
       "organization": "Washington Experimental Mathematics Lab",
       "date": "Mar 2025 - Jun 2025",
@@ -50,6 +55,7 @@
       ]
     },
     {
+      "logo": "hci.png",
       "title": "Student Researcher",
       "organization": "Hwa Chong Institution Centre for Talent and Development",
       "date": "Mar 2022 - Jul 2023",
@@ -62,6 +68,7 @@
   ],
   "others": [
     {
+      "logo": "hci.png",
       "title": "Mathematics and Physics Tutor",
       "organization": "Freelance",
       "date": "May 2024 - Oct 2025",
@@ -71,6 +78,7 @@
       ]
     },
     {
+      "logo": "yishun-health.png",
       "title": "Care Volunteer",
       "organization": "Yishun Health",
       "date": "Apr 2024 - Jul 2024",
@@ -82,6 +90,7 @@
       ]
     },
     {
+      "logo": "explorer-junior.png",
       "title": "Educator",
       "organization": "Explorer Junior",
       "date": "Nov 2020 - Dec 2020",
