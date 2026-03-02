@@ -1,6 +1,17 @@
 {
   "work": [
     {
+      "logo": "uw.png",
+      "title": "Software Engineer Intern",
+      "organization": "Student Innovation Lab, UW-IT's Student & Educational Technology Services (SETS)",
+      "date": "Feb 2026 - Present",
+      "points": [
+        "Architecting the HuskyFetch API using a cloud-native stack to provide standardized UW data access for student-led hackathons and classroom prototyping.",
+        "Managing containerized workloads using Kubernetes and GitHub Actions to automate CI/CD pipelines, ensuring high availability and seamless deployment of API updates.",
+        "Designing and maintaining performant SQL/NoSQL databases optimized for low-latency data retrieval across diverse campus datasets."
+      ]
+    },
+    {
       "logo": "hub.png",
       "title": "Meeting Reservation Specialist",
       "organization": "Husky Union Building",
@@ -41,7 +52,8 @@
       "organization": "PIONEER Experiment, Experimental Nuclear Physics and Astrophysics (CENPA)",
       "date": "Sep 2025 - Present",
       "points": [
-        "Analyzed FAST3 output inconsistencies by modeling circuit topology as a graph, revealing emergent AND/OR-like interactions between resistive elements that distorted channel gain mapping."
+        "Reverse-engineered the proprietary 224-bit configuration protocol of the FAST3 front-end electronics chip by identifying non-standard logic mappings in a subset of 16 channels.",
+        "Derived a nested AND-OR logic model to characterize emergent inter-channel bit dependencies, enabling precise gain control where standard 3-bit mapping failed."
       ]
     },
     {

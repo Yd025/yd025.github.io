@@ -10,14 +10,22 @@ import heroImage from '../assets/carousel/pfp.jpg';
 import skillsImage from '../assets/carousel/skills.jpg';
 
 /* Carousel: add more images to src/assets/carousel and list them here (6–10 recommended). */
+import dubhacks from '../assets/carousel/dubhacks.jpg';
+import mit from '../assets/carousel/mit.jpeg';
+import andy from '../assets/carousel/andy.jpg';
+import makemit from '../assets/carousel/makemit.jpg';
+import scc from '../assets/carousel/scc.jpg';
+import neurohack from '../assets/carousel/neurohack.jpeg';
+import tbc from '../assets/carousel/tbc.jpeg';
+
 const CAROUSEL_IMAGES = [
-  { src: '../src/assets/carousel/dubhacks.jpg', alt: 'dubhacks' },
-  { src: '../src/assets/carousel/mit.jpeg', alt: 'mit' },
-  { src: '../src/assets/carousel/andy.jpg', alt: 'andy' },
-  { src: '../src/assets/carousel/makemit.jpg', alt: 'makemit' },
-  { src: '../src/assets/carousel/scc.jpg', alt: 'scc' },
-  { src: '../src/assets/carousel/neurohack.jpeg', alt: 'neurohack' },
-  { src: '../src/assets/carousel/tbc.jpeg', alt: 'tbc' }
+  { src: dubhacks, alt: 'dubhacks' },
+  { src: mit, alt: 'mit' },
+  { src: andy, alt: 'andy' },
+  { src: makemit, alt: 'makemit' },
+  { src: scc, alt: 'scc' },
+  { src: neurohack, alt: 'neurohack' },
+  { src: tbc, alt: 'tbc' }
 ];
 
 const GREETINGS = [

@@ -1,4 +1,28 @@
 [
+{
+    "title": "Scribblr",
+    "type": "hackathon",
+    "description": "Won 2nd Place for Seed Studio Interactive Signage at MakeMIT x Harvard 2026. A 3D-printed robotic lecture assistant that converts ambient professor audio into real-time, physical chalkboard notes via a custom G-code generation engine. The system integrates a multi-threaded Python pipeline using ElevenLabs STT and Gemini 2.0 Flash to achieve low-latency summarization, driving X/Y/Z motor coordination on a modified Lulzbot frame via a Hershey-font vector engine.",
+    "technologies": ["Python", "Gemini API", "ElevenLabs", "G-code", "Marlin Firmware", "Tkinter"],
+    "links": [
+      {"text": "Presentation", "url": "https://devpost.com/software/scribblr-0bxzq4"},
+      {"text": "Software Demo", "url": "https://youtu.be/mRXCumImsr4"},
+      {"text": "Source Code", "url": "https://github.com/Yd025/Scribblr"}]
+  },
+  {
+    "title": "Instant Quote",
+    "type": "class",
+    "description": "Coming soon",
+    "technologies": [""],
+    "links": [{"text": "Website", "url": "https://instant-quote-ten.vercel.app/"}]
+  },
+  {
+    "title": "Access to Care: Identifying Subgroups at Risk of Falling Through the Cracks",
+    "type": "data",
+    "description": "This project identifies demographic subgroups systematically underserved by the U.S. healthcare system by comparing clustering and predictive modeling. As the lead researcher, implemented K-Means Clustering, Linear Regression, and Deep Learning (MLP) models on CDC NHIS data to reveal how different analytical 'lenses' surface distinct at-risk populations. Validated model performance with a 0.59 Silhouette score and 0.98 R² to prioritize policy-relevant cohorts, such as uninsured individuals and those with disabilities. DubsTech Datathon 2026 submission.",
+    "technologies": ["Python", "scikit-learn", "pandas", "NumPy", "Matplotlib", "Seaborn"],
+    "links": [{"text": "Source Code", "url": "https://github.com/Yd025/CareAccess"}]
+  },
   {
     "title": "MOOV",
     "type": "hackathon",
@@ -125,7 +149,7 @@
     "title": "TAG Lost & Found",
     "type": "hackathon",
     "description": "Created a pitch deck for a community-driven lost and found platform for the Lavin Startup Studio 2024 entrepreneurship competition designed to maximize lost item recovery on campus. Users submit reports of lost or found items with geo-tagged locations, browse live listings, and coordinate pickups at verified collection points.",
-    "technologies": ["No code"],
+    "technologies": [""],
     "links": [{"text": "Presentation", "url": "https://docs.google.com/presentation/d/18mezIgQi7CNvHzDrxHfUQ_UWq3l_KQnvJdJ_cG6mqU4/edit?usp=sharing"}]
   },
   {
