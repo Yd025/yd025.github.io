@@ -1,5 +1,23 @@
 [
-{
+  {
+    "title": "Tenet",
+    "type": "hackathon",
+    "description": "Tenet is a non-linear AI conversation platform built to solve a painful reality: one bad prompt can contaminate an entire chat. Instead of forcing users into a single fragile thread, Tenet models every conversation as a Directed Acyclic Graph (DAG), so users can safely explore ideas, isolate risky directions, preserve high-value context, and recover instantly when a branch goes off-track. With auto-branching, mergeable reasoning paths, real-time D3 graph visualization, and live inference telemetry running on the ASUS Ascent GX10 AI Supercomputer, Tenet turns AI interaction from disposable chats into a durable, high-trust workflow. Built for the LAHacks 2026 at UCLA.",
+    "technologies": ["Fetch.ai Agentverse", "ASUS Ascent GX10", "FastAPI", "MongoDB", "Fetch.ai uAgents", "React", "TypeScript", "Vite", "Zustand"],
+    "links": [
+      {"text": "Presentation", "url": "https://devpost.com/software/tenet"},
+      {"text": "Source Code", "url": "https://github.com/Yd025/Tenet"}]
+  },
+  {
+    "title": "ML Visual UI",
+    "type": "hackathon",
+    "description": "A hands-on ML visualization tool that keeps code and diagrams in sync. Edit your code and watch the architecture update visually in real time — or modify the diagram and let the code adjust automatically. Built for software engineers who want a faster, more intuitive way to understand, debug, explain, and iterate on machine learning systems. Built with the OpenAI Team for their first-ever Bellevue Community Codex Hackathon 2026.",
+    "technologies": ["Codex", "React", "TypeScript", "Vite"],
+    "links": [
+      {"text": "Source Code", "url": "https://github.com/Yd025/ML-Visual-UI"}
+    ]
+  },
+  {
     "title": "Scribblr",
     "type": "hackathon",
     "description": "Won 2nd Place for Seed Studio Interactive Signage at MakeMIT x Harvard 2026. A 3D-printed robotic lecture assistant that converts ambient professor audio into real-time, physical chalkboard notes via a custom G-code generation engine. The system integrates a multi-threaded Python pipeline using ElevenLabs STT and Gemini 2.0 Flash to achieve low-latency summarization, driving X/Y/Z motor coordination on a modified Lulzbot frame via a Hershey-font vector engine.",
